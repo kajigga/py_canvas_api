@@ -1,0 +1,2955 @@
+{
+  "items": [
+    {
+      "id": "83bad63b3299434ab85e4082e3af118c",
+      "title": "Female Food Riots Text Structure Assessment",
+      "description": "Female Food Riots and Dramatic Moment in Boston",
+      "account": {
+        "id": "7db438071375c02373713c12c73869ff2f470b68.scps.instructure.com",
+        "name": "Seminole County Public Schools"
+      },
+      "scopeIds": [
+        "PUBLIC"
+      ],
+      "type": "quiz",
+      "lang": "en",
+      "createDate": "2016-03-30T12:30:07.236Z",
+      "createUserId": "7db438071375c02373713c12c73869ff2f470b68.scps.instructure.combf345baf98f4eeb3afcbfca84c765d6c385fe35e",
+      "updateDate": "2016-03-30T12:30:07.236Z",
+      "updateUserId": "7db438071375c02373713c12c73869ff2f470b68.scps.instructure.combf345baf98f4eeb3afcbfca84c765d6c385fe35e",
+      "authors": [
+        {
+          "id": "7db438071375c02373713c12c73869ff2f470b68.scps.instructure.combf345baf98f4eeb3afcbfca84c765d6c385fe35e",
+          "name": "Erin Canul"
+        }
+      ],
+      "tags": [
+        "food riots"
+      ],
+      "sourceId": "/api/v1/courses/63594/content_exports?export_type=common_cartridge&select%5Bquizzes%5D%5B%5D=44823",
+      "thumbnail": {
+        "url": "https://lor-images.s3.amazonaws.com/thumbnails/uploads/58f6547486c14510ac4aa7fbf7e73bd0.jpg",
+        "description": "Uploaded Thumbnail"
+      },
+      "gradeIds": [
+        "5"
+      ],
+      "licenseIds": [
+        "copyright_reserve"
+      ],
+      "outcomes": [],
+      "count1StarRatings": 0,
+      "count2StarRatings": 0,
+      "count3StarRatings": 0,
+      "count4StarRatings": 0,
+      "count5StarRatings": 0,
+      "exportStatus": "complete",
+      "isPrivate": false,
+      "averageRating": 0,
+      "meta": {
+        "links": {
+          "self": "/api/resources/83bad63b3299434ab85e4082e3af118c"
+        }
+      }
+    },
+    {
+      "id": "6b261b5183f44243a60f8ca6c43ad0ea",
+      "title": "WebQuest: Careers in Technology",
+      "description": "This WebQuest was designed for 8th grade Tech. Ed. students to explore the idea of a career in the field of Technology.",
+      "account": {
+        "id": "naFbGevSmbECNEKEjGghCZ16YCyPNY1yYybVeqF3",
+        "name": "Madison County Schools Alabama"
+      },
+      "scopeIds": [
+        "PUBLIC"
+      ],
+      "type": "document",
+      "lang": "en",
+      "createDate": "2016-04-22T18:40:10.151Z",
+      "createUserId": "naFbGevSmbECNEKEjGghCZ16YCyPNY1yYybVeqF304352478fb6a9f5d2844a0cf5142eb9d8288b35f",
+      "updateDate": "2016-04-22T18:40:10.151Z",
+      "updateUserId": "naFbGevSmbECNEKEjGghCZ16YCyPNY1yYybVeqF304352478fb6a9f5d2844a0cf5142eb9d8288b35f",
+      "authors": [
+        {
+          "id": "naFbGevSmbECNEKEjGghCZ16YCyPNY1yYybVeqF304352478fb6a9f5d2844a0cf5142eb9d8288b35f",
+          "name": "Alanna Hubert"
+        }
+      ],
+      "tags": [
+        "Community Review, Technology, Webquest"
+      ],
+      "sourceId": "/files/364219/download?download_frd=1",
+      "thumbnail": {
+        "url": "https://lor-images.s3.amazonaws.com/thumbnails/uploads/f70c103bce5645fb8e8145b1754eb94e.jpg",
+        "description": "Uploaded Thumbnail"
+      },
+      "gradeIds": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "licenseIds": [
+        "public_domain"
+      ],
+      "outcomes": [],
+      "count1StarRatings": 0,
+      "count2StarRatings": 0,
+      "count3StarRatings": 0,
+      "count4StarRatings": 0,
+      "count5StarRatings": 0,
+      "exportStatus": "complete",
+      "isPrivate": false,
+      "averageRating": 0,
+      "meta": {
+        "links": {
+          "self": "/api/resources/6b261b5183f44243a60f8ca6c43ad0ea"
+        }
+      }
+    },
+    {
+      "id": "e5c9774953d34621aece8ab6d3366a34",
+      "title": "Supply and Demand practice quiz",
+      "description": "Supply and demand formative",
+      "account": {
+        "id": "mH3hjvtPS21kh7fm2EOHtZqwBikRee6qFM52uFhF:canvas-lms",
+        "name": "Monroe County Com Sch Corp"
+      },
+      "scopeIds": [
+        "PUBLIC"
+      ],
+      "type": "quiz",
+      "lang": "en",
+      "createDate": "2016-04-20T13:30:54.770Z",
+      "createUserId": "mH3hjvtPS21kh7fm2EOHtZqwBikRee6qFM52uFhF:canvas-lmsea96447dfa0a9ae2406ee1edbae815b0b108d06d",
+      "updateDate": "2016-04-20T13:30:54.770Z",
+      "updateUserId": "mH3hjvtPS21kh7fm2EOHtZqwBikRee6qFM52uFhF:canvas-lmsea96447dfa0a9ae2406ee1edbae815b0b108d06d",
+      "authors": [
+        {
+          "id": "mH3hjvtPS21kh7fm2EOHtZqwBikRee6qFM52uFhF:canvas-lmsea96447dfa0a9ae2406ee1edbae815b0b108d06d",
+          "name": "Don Adams"
+        }
+      ],
+      "tags": [
+        "adams",
+        "aiken"
+      ],
+      "sourceId": "/api/v1/courses/9401/content_exports?export_type=common_cartridge&select%5Bquizzes%5D%5B%5D=16042",
+      "thumbnail": {
+        "url": "https://farm1.staticflickr.com/88/244301356_622cadd2fc_z.jpg?zz=1",
+        "description": "Adams",
+        "attributionName": "reziemba",
+        "attributionUrl": "https://www.flickr.com/photos/78164834@N00/244301356",
+        "licenseName": "Attribution-NoDerivs License",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nd/2.0/",
+        "height": 480,
+        "width": 640
+      },
+      "gradeIds": [
+        "10",
+        "9"
+      ],
+      "licenseIds": [
+        "public_domain"
+      ],
+      "outcomes": [],
+      "count1StarRatings": 0,
+      "count2StarRatings": 0,
+      "count3StarRatings": 0,
+      "count4StarRatings": 0,
+      "count5StarRatings": 0,
+      "exportStatus": "complete",
+      "isPrivate": false,
+      "averageRating": 0,
+      "meta": {
+        "links": {
+          "self": "/api/resources/e5c9774953d34621aece8ab6d3366a34"
+        }
+      }
+    },
+    {
+      "id": "d0a4c78dedc64e8dad444500acb68f22",
+      "title": "Media Comp Collage Project",
+      "description": "The students select 3 pictures, manipulate each picture using java and then combine them into a collage.",
+      "account": {
+        "id": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.com",
+        "name": "Free For Teachers"
+      },
+      "scopeIds": [
+        "PUBLIC"
+      ],
+      "type": "assignment",
+      "lang": "en",
+      "createDate": "2016-03-22T17:13:47.915Z",
+      "createUserId": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.com11ac75eecf78d494ea0595d8d8fe8e35c7b9ae08",
+      "updateDate": "2016-03-22T17:13:47.915Z",
+      "updateUserId": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.com11ac75eecf78d494ea0595d8d8fe8e35c7b9ae08",
+      "authors": [
+        {
+          "id": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.com11ac75eecf78d494ea0595d8d8fe8e35c7b9ae08",
+          "name": "Myra Deister"
+        }
+      ],
+      "tags": [
+        "Computer Science"
+      ],
+      "sourceId": "/api/v1/courses/781496/content_exports?export_type=common_cartridge&select%5Bassignments%5D%5B%5D=2213562",
+      "thumbnail": {
+        "url": "https://lor-images.s3.amazonaws.com/thumbnails/uploads/05bd28acf75d48ffafe48cc2088b5a26.jpg",
+        "description": "Uploaded Thumbnail"
+      },
+      "gradeIds": [
+        "10",
+        "11",
+        "12",
+        "G",
+        "HE"
+      ],
+      "licenseIds": [
+        "attribution"
+      ],
+      "outcomes": [],
+      "count1StarRatings": 0,
+      "count2StarRatings": 0,
+      "count3StarRatings": 0,
+      "count4StarRatings": 0,
+      "count5StarRatings": 0,
+      "exportStatus": "complete",
+      "isPrivate": false,
+      "averageRating": 0,
+      "meta": {
+        "links": {
+          "self": "/api/resources/d0a4c78dedc64e8dad444500acb68f22"
+        }
+      }
+    },
+    {
+      "id": "2907ccb65a0d4b67b41dc4489c909af8",
+      "title": "Language 08",
+      "description": "8th Grade Reading and Language Arts",
+      "account": {
+        "id": "NMAouuchmnVhzbCiAYjBxxRNH8JHqhqPMzApnFfY:canvas-lms",
+        "name": "Nineveh-Hensley-Jackson United"
+      },
+      "scopeIds": [
+        "PUBLIC"
+      ],
+      "type": "course",
+      "lang": "en",
+      "createDate": "2016-05-06T13:28:20.085Z",
+      "createUserId": "NMAouuchmnVhzbCiAYjBxxRNH8JHqhqPMzApnFfY:canvas-lms7612615b2a2a82193705008db41016943bc1d502",
+      "updateDate": "2016-05-06T13:28:20.085Z",
+      "updateUserId": "NMAouuchmnVhzbCiAYjBxxRNH8JHqhqPMzApnFfY:canvas-lms7612615b2a2a82193705008db41016943bc1d502",
+      "authors": [
+        {
+          "id": "NMAouuchmnVhzbCiAYjBxxRNH8JHqhqPMzApnFfY:canvas-lms7612615b2a2a82193705008db41016943bc1d502",
+          "name": "Sara Downing"
+        }
+      ],
+      "tags": [
+        "8th Grade Reading and Language Arts"
+      ],
+      "sourceId": "/api/v1/courses/255/content_exports?export_type=common_cartridge",
+      "thumbnail": {
+        "url": "https://farm9.staticflickr.com/8249/8596143348_b40cf0f5d2_z.jpg",
+        "description": "Books!",
+        "attributionName": "Kirrus",
+        "attributionUrl": "https://www.flickr.com/photos/79206134@N00/8596143348",
+        "licenseName": "Attribution-ShareAlike License",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "height": 480,
+        "width": 640
+      },
+      "gradeIds": [
+        "8"
+      ],
+      "licenseIds": [
+        "copyright_reserve"
+      ],
+      "outcomes": [],
+      "count1StarRatings": 0,
+      "count2StarRatings": 0,
+      "count3StarRatings": 0,
+      "count4StarRatings": 0,
+      "count5StarRatings": 0,
+      "exportStatus": "complete",
+      "isPrivate": false,
+      "averageRating": 0,
+      "meta": {
+        "links": {
+          "self": "/api/resources/2907ccb65a0d4b67b41dc4489c909af8"
+        }
+      }
+    },
+    {
+      "id": "ac5815ccb4954c7b9f98fcb8d44a58c6",
+      "title": "Professor-TA Training Course",
+      "description": "The purpose of this training course is to give the residential professor, TA, and/or campus Registrar the basic tools needed to build out a residential course in Canvas. Canvas Training Videos and Guides will be made accessible to walk through the various functionalities available within Canvas.\nDiscussion forums will be available for interaction with the Canvas admin, and other professors and TAs for best practice ideas and to ask questions.\nConferences will be available for video conferencing for group training as needed or upon request.",
+      "account": {
+        "id": "7db438071375c02373713c12c73869ff2f470b68.rts.instructure.com",
+        "name": "Reformed Theological Seminary"
+      },
+      "scopeIds": [
+        "PUBLIC"
+      ],
+      "type": "course",
+      "lang": "en",
+      "createDate": "2015-05-28T19:44:47.682Z",
+      "createUserId": "7db438071375c02373713c12c73869ff2f470b68.rts.instructure.com058eaa13226f53016b8e8feb8a935a05d956bdd3",
+      "updateDate": "2015-05-28T19:44:47.682Z",
+      "updateUserId": "7db438071375c02373713c12c73869ff2f470b68.rts.instructure.com058eaa13226f53016b8e8feb8a935a05d956bdd3",
+      "authors": [
+        {
+          "id": "7db438071375c02373713c12c73869ff2f470b68.rts.instructure.com058eaa13226f53016b8e8feb8a935a05d956bdd3",
+          "name": "Mark James",
+          "avatarUrl": "https://rts.instructure.com/images/thumbnails/81/DdmOsuGMRGK07NI9yiuOTuFI8ymvMULvZ2JBAGvE"
+        }
+      ],
+      "tags": [
+        "Canvas video",
+        "canvas training"
+      ],
+      "sourceId": "/api/v1/courses/577/content_exports?export_type=common_cartridge",
+      "thumbnail": {
+        "url": "http://lor-images.s3.amazonaws.com/subjects/arts-and-music/Arts-08-262x147.jpg",
+        "description": "Photo of Roman relief sculpture of a Male Captive"
+      },
+      "gradeIds": [
+        "G",
+        "HE"
+      ],
+      "licenseIds": [
+        "public_domain"
+      ],
+      "outcomes": [],
+      "count1StarRatings": 0,
+      "count2StarRatings": 0,
+      "count3StarRatings": 0,
+      "count4StarRatings": 0,
+      "count5StarRatings": 0,
+      "exportStatus": "complete",
+      "isPrivate": false,
+      "averageRating": 0,
+      "meta": {
+        "links": {
+          "self": "/api/resources/ac5815ccb4954c7b9f98fcb8d44a58c6"
+        }
+      }
+    },
+    {
+      "id": "35a9012726ac4f31895b0dd7cdc73c03",
+      "title": "Weebly Webfolio Final Culminating",
+      "description": "This is a final project that has student creating a webfolio using the website www.weebly.com",
+      "account": {
+        "id": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.com",
+        "name": "Free For Teachers"
+      },
+      "scopeIds": [
+        "PUBLIC"
+      ],
+      "type": "module",
+      "lang": "en",
+      "createDate": "2016-01-07T18:46:35.815Z",
+      "createUserId": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.com9cd4687823450fcdbf52ebe4dd58c23b2e87fb22",
+      "updateDate": "2016-01-07T18:46:35.815Z",
+      "updateUserId": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.com9cd4687823450fcdbf52ebe4dd58c23b2e87fb22",
+      "authors": [
+        {
+          "id": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.com9cd4687823450fcdbf52ebe4dd58c23b2e87fb22",
+          "name": "Fuoco, F"
+        }
+      ],
+      "tags": [
+        "Web Design"
+      ],
+      "sourceId": "/api/v1/courses/966467/content_exports?export_type=common_cartridge&select%5Bmodules%5D%5B%5D=1025206",
+      "thumbnail": {
+        "url": "https://lor-images.s3.amazonaws.com/thumbnails/uploads/12f40b96744d48b7828e576ac3a4edad.jpg",
+        "description": "Uploaded Thumbnail"
+      },
+      "gradeIds": [
+        "11",
+        "12",
+        "G",
+        "HE"
+      ],
+      "licenseIds": [
+        "copyright_reserve"
+      ],
+      "outcomes": [],
+      "count1StarRatings": 0,
+      "count2StarRatings": 0,
+      "count3StarRatings": 0,
+      "count4StarRatings": 0,
+      "count5StarRatings": 0,
+      "exportStatus": "complete",
+      "isPrivate": false,
+      "averageRating": 0,
+      "meta": {
+        "links": {
+          "self": "/api/resources/35a9012726ac4f31895b0dd7cdc73c03"
+        }
+      }
+    },
+    {
+      "id": "65476198db78432f99ead6636d58f076",
+      "title": "6-12 PRACTICE: Do Students Need a Technology Driver’s License?",
+      "description": "Adaption of technology drivers license - Mike Ribble",
+      "account": {
+        "id": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.com",
+        "name": "Free For Teachers"
+      },
+      "scopeIds": [
+        "PUBLIC"
+      ],
+      "type": "quiz",
+      "lang": "en",
+      "createDate": "2016-03-20T03:55:42.632Z",
+      "createUserId": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.com29d0a4eb0d89d106a0e555b935447406b32862ff",
+      "updateDate": "2016-03-20T03:55:42.632Z",
+      "updateUserId": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.com29d0a4eb0d89d106a0e555b935447406b32862ff",
+      "authors": [
+        {
+          "id": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.com29d0a4eb0d89d106a0e555b935447406b32862ff",
+          "name": "Maci  Devaney"
+        }
+      ],
+      "tags": [
+        "drive"
+      ],
+      "sourceId": "/api/v1/courses/1004256/content_exports?export_type=common_cartridge&select%5Bquizzes%5D%5B%5D=1495688",
+      "thumbnail": {
+        "url": "https://farm8.staticflickr.com/7429/9734370224_e501da0237_z.jpg",
+        "description": "Drivers License -Teen driver",
+        "attributionName": "State Farm",
+        "attributionUrl": "https://www.flickr.com/photos/40567541@N08/9734370224",
+        "licenseName": "Attribution License",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "height": 427,
+        "width": 640
+      },
+      "gradeIds": [
+        "1",
+        "10",
+        "11",
+        "12",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "G",
+        "HE",
+        "K"
+      ],
+      "licenseIds": [
+        "copyright_reserve"
+      ],
+      "licenseSpecs": "Must request permission via Mike Ribble for use",
+      "outcomes": [],
+      "count1StarRatings": 0,
+      "count2StarRatings": 0,
+      "count3StarRatings": 0,
+      "count4StarRatings": 0,
+      "count5StarRatings": 0,
+      "exportStatus": "complete",
+      "isPrivate": false,
+      "averageRating": 0,
+      "meta": {
+        "links": {
+          "self": "/api/resources/65476198db78432f99ead6636d58f076"
+        }
+      }
+    },
+    {
+      "id": "98d6df68c4074e39b2e89e42237b9fe3",
+      "title": "Slugger Metal Cutting Saw",
+      "description": "Safety Test",
+      "account": {
+        "id": "ONKr57hPtgwLf4R2VpYTuO8va05LxtjPGImUw4Sg",
+        "name": "Bethel School District"
+      },
+      "scopeIds": [
+        "PUBLIC"
+      ],
+      "type": "quiz",
+      "lang": "en",
+      "createDate": "2016-04-21T16:56:02.338Z",
+      "createUserId": "ONKr57hPtgwLf4R2VpYTuO8va05LxtjPGImUw4Sg0a49811103ba7f20e2036c23a557ce9da5ef3190",
+      "updateDate": "2016-04-21T16:56:02.338Z",
+      "updateUserId": "ONKr57hPtgwLf4R2VpYTuO8va05LxtjPGImUw4Sg0a49811103ba7f20e2036c23a557ce9da5ef3190",
+      "authors": [
+        {
+          "id": "ONKr57hPtgwLf4R2VpYTuO8va05LxtjPGImUw4Sg0a49811103ba7f20e2036c23a557ce9da5ef3190",
+          "name": "BRISTON J TRAPP"
+        }
+      ],
+      "tags": [
+        "Metal saw trapp pcsc"
+      ],
+      "sourceId": "/api/v1/courses/11412/content_exports?export_type=common_cartridge&select%5Bquizzes%5D%5B%5D=8453",
+      "thumbnail": {
+        "url": "https://farm4.staticflickr.com/3262/3153214685_f862d67dc1_z.jpg",
+        "description": "Sawblade",
+        "attributionName": "ScottieT812",
+        "attributionUrl": "https://www.flickr.com/photos/30476055@N02/3153214685",
+        "licenseName": "Attribution-ShareAlike License",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "height": 428,
+        "width": 640
+      },
+      "gradeIds": [
+        "1",
+        "10",
+        "11",
+        "12",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "G",
+        "HE",
+        "K"
+      ],
+      "licenseIds": [
+        "public_domain"
+      ],
+      "outcomes": [],
+      "count1StarRatings": 0,
+      "count2StarRatings": 0,
+      "count3StarRatings": 0,
+      "count4StarRatings": 0,
+      "count5StarRatings": 0,
+      "exportStatus": "complete",
+      "isPrivate": false,
+      "averageRating": 0,
+      "meta": {
+        "links": {
+          "self": "/api/resources/98d6df68c4074e39b2e89e42237b9fe3"
+        }
+      }
+    },
+    {
+      "id": "5d01f5156f6a419f8c18386c36f3d7fb",
+      "title": "Similar Figure and Indirect Measurement Recording",
+      "description": "Recording on Similar Figures and Indirect Measurement",
+      "account": {
+        "id": "Vmr6dBMPnR7tjJuSBDFZtbRtR7xCLaIpxJPrJMc1",
+        "name": "Centennial SD"
+      },
+      "scopeIds": [
+        "PUBLIC"
+      ],
+      "type": "assignment",
+      "lang": "en",
+      "createDate": "2016-05-11T11:33:44.388Z",
+      "createUserId": "Vmr6dBMPnR7tjJuSBDFZtbRtR7xCLaIpxJPrJMc110ae54e394d2a464c01bd0f93456ebf1ef2bac9f",
+      "updateDate": "2016-05-11T11:33:44.388Z",
+      "updateUserId": "Vmr6dBMPnR7tjJuSBDFZtbRtR7xCLaIpxJPrJMc110ae54e394d2a464c01bd0f93456ebf1ef2bac9f",
+      "authors": [
+        {
+          "id": "Vmr6dBMPnR7tjJuSBDFZtbRtR7xCLaIpxJPrJMc110ae54e394d2a464c01bd0f93456ebf1ef2bac9f",
+          "name": "Donna DiFilippo"
+        }
+      ],
+      "tags": [
+        "geometry",
+        "indirect measurement",
+        "similar figures"
+      ],
+      "sourceId": "/api/v1/courses/1501/content_exports?export_type=common_cartridge&select%5Bassignments%5D%5B%5D=25534",
+      "thumbnail": {
+        "url": "https://farm2.staticflickr.com/1046/1175392938_10c35d6c4a_z.jpg",
+        "description": "Geometry",
+        "attributionName": "Benjamin Chun",
+        "attributionUrl": "https://www.flickr.com/photos/40494725@N00/1175392938",
+        "licenseName": "Attribution-ShareAlike License",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "height": 426,
+        "width": 640
+      },
+      "gradeIds": [
+        "10",
+        "11",
+        "12",
+        "7",
+        "8",
+        "9",
+        "HE"
+      ],
+      "licenseIds": [
+        "public_domain"
+      ],
+      "outcomes": [],
+      "count1StarRatings": 0,
+      "count2StarRatings": 0,
+      "count3StarRatings": 0,
+      "count4StarRatings": 0,
+      "count5StarRatings": 0,
+      "exportStatus": "complete",
+      "isPrivate": false,
+      "averageRating": 0,
+      "meta": {
+        "links": {
+          "self": "/api/resources/5d01f5156f6a419f8c18386c36f3d7fb"
+        }
+      }
+    },
+    {
+      "id": "3c439485ed8846eea29fd3aa2fb2375a",
+      "title": "Sec2-Best of Mind Map #1 (Introduction to the class) ",
+      "description": "Sec2-Best of Mind Map #1 (Introduction to the class) ",
+      "account": {
+        "id": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.com",
+        "name": "Free For Teachers"
+      },
+      "scopeIds": [
+        "PUBLIC"
+      ],
+      "type": "quiz",
+      "lang": "en",
+      "createDate": "2016-05-10T07:13:49.692Z",
+      "createUserId": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.com106d99fc7552523ab3a031546585ca84ab01f04a",
+      "updateDate": "2016-05-10T07:13:49.692Z",
+      "updateUserId": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.com106d99fc7552523ab3a031546585ca84ab01f04a",
+      "authors": [
+        {
+          "id": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.com106d99fc7552523ab3a031546585ca84ab01f04a",
+          "name": "Poramin(Por) Bheganan"
+        }
+      ],
+      "tags": [
+        "Sec2-Best of Mind Map #1 (Introduction to the class) "
+      ],
+      "sourceId": "/api/v1/courses/1023523/content_exports?export_type=common_cartridge&select%5Bquizzes%5D%5B%5D=1568215",
+      "thumbnail": {
+        "url": "https://lor-images.s3.amazonaws.com/thumbnails/uploads/0d2880739ac940d481668605e226f03d.jpg",
+        "description": "Uploaded Thumbnail"
+      },
+      "gradeIds": [
+        "1",
+        "10",
+        "11",
+        "12",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "G",
+        "HE",
+        "K"
+      ],
+      "licenseIds": [
+        "public_domain"
+      ],
+      "outcomes": [],
+      "count1StarRatings": 0,
+      "count2StarRatings": 0,
+      "count3StarRatings": 0,
+      "count4StarRatings": 0,
+      "count5StarRatings": 0,
+      "exportStatus": "complete",
+      "isPrivate": false,
+      "averageRating": 0,
+      "meta": {
+        "links": {
+          "self": "/api/resources/3c439485ed8846eea29fd3aa2fb2375a"
+        }
+      }
+    },
+    {
+      "id": "326ae9a097b8400696e1058ee668d565",
+      "title": "Using Video for Reflective Practice",
+      "description": "This is the open course version of our Project Cam Opener Professional Development Unit course originally created for Denver Public Schools teachers/leaders.",
+      "account": {
+        "id": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.com",
+        "name": "Free For Teachers"
+      },
+      "scopeIds": [
+        "PUBLIC"
+      ],
+      "type": "course",
+      "lang": "en",
+      "createDate": "2016-02-18T12:41:02.912Z",
+      "createUserId": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.comb1d484306dc0a63f7a240e0d663baa4cefae7bda",
+      "updateDate": "2016-02-18T12:41:02.912Z",
+      "updateUserId": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.comb1d484306dc0a63f7a240e0d663baa4cefae7bda",
+      "authors": [
+        {
+          "id": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.comb1d484306dc0a63f7a240e0d663baa4cefae7bda",
+          "name": "Ben Wilkoff"
+        }
+      ],
+      "tags": [
+        "PPL",
+        "Reflective Practice",
+        "Video",
+        "professional development"
+      ],
+      "sourceId": "/api/v1/courses/1007831/content_exports?export_type=common_cartridge",
+      "thumbnail": {
+        "url": "https://farm8.staticflickr.com/7580/15602234873_8b249f2d4b_z.jpg",
+        "description": "Video camera icon",
+        "attributionName": "microbiologybytes",
+        "attributionUrl": "https://www.flickr.com/photos/128747619@N06/15602234873",
+        "licenseName": "Attribution-ShareAlike License",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "height": 512,
+        "width": 512
+      },
+      "gradeIds": [
+        "1",
+        "10",
+        "11",
+        "12",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "G",
+        "HE",
+        "K"
+      ],
+      "licenseIds": [
+        "public_domain"
+      ],
+      "outcomes": [],
+      "count1StarRatings": 0,
+      "count2StarRatings": 0,
+      "count3StarRatings": 0,
+      "count4StarRatings": 0,
+      "count5StarRatings": 0,
+      "exportStatus": "complete",
+      "isPrivate": false,
+      "averageRating": 0,
+      "meta": {
+        "links": {
+          "self": "/api/resources/326ae9a097b8400696e1058ee668d565"
+        }
+      }
+    },
+    {
+      "id": "a29268e9c99049d9b43cbbb8a6ed19d4",
+      "title": "TOEFL Practice # 6: Listening for Attitude, Purpose, Inferences and Predictions",
+      "description": "TOEFL Practice # 6: Listening for Attitude, Purpose, Inferences and Predictions",
+      "account": {
+        "id": "fx35tWNBdvRNpY5TnRBWXilCKnClYH1gmwiN4Ldb:canvas-lms",
+        "name": "BYU - ELC"
+      },
+      "scopeIds": [
+        "PUBLIC"
+      ],
+      "type": "quiz",
+      "lang": "en",
+      "createDate": "2015-10-28T01:29:30.643Z",
+      "createUserId": "fx35tWNBdvRNpY5TnRBWXilCKnClYH1gmwiN4Ldb:canvas-lms7039c356a86e24a670f17b62f8535d5867f5eb48",
+      "updateDate": "2016-04-13T05:09:57.202Z",
+      "updateUserId": "fx35tWNBdvRNpY5TnRBWXilCKnClYH1gmwiN4Ldb:canvas-lms7039c356a86e24a670f17b62f8535d5867f5eb48",
+      "authors": [
+        {
+          "id": "fx35tWNBdvRNpY5TnRBWXilCKnClYH1gmwiN4Ldb:canvas-lms7039c356a86e24a670f17b62f8535d5867f5eb48",
+          "name": "Kostya Fesenko",
+          "avatarUrl": "https://byuelc.instructure.com/images/thumbnails/1628/0kKiwWXmfy5UpJaKnxJ7vA44t3vjohjQZKabHC9Q"
+        }
+      ],
+      "tags": [
+        "TOEFL L"
+      ],
+      "sourceId": "/api/v1/courses/321/content_exports?export_type=common_cartridge&select%5Bquizzes%5D%5B%5D=2523",
+      "thumbnail": {
+        "url": "http://lor-images.s3.amazonaws.com/subjects/english-language-arts/English-08-262x147.jpg",
+        "description": "Stone arch bridge over clear stream"
+      },
+      "licenseIds": [
+        "copyright_reserve"
+      ],
+      "outcomes": [],
+      "count1StarRatings": "0",
+      "count2StarRatings": "0",
+      "count3StarRatings": "0",
+      "count4StarRatings": "0",
+      "count5StarRatings": "0",
+      "exportStatus": "complete",
+      "isPrivate": false,
+      "averageRating": 0,
+      "meta": {
+        "links": {
+          "self": "/api/resources/a29268e9c99049d9b43cbbb8a6ed19d4"
+        }
+      }
+    },
+    {
+      "id": "305783f9afff4c3cb57f0dc3b8db356e",
+      "title": "Study and learning tips",
+      "description": "collection of links to study and learning tips",
+      "account": {
+        "id": "7db438071375c02373713c12c73869ff2f470b68.k-state.instructure.com",
+        "name": "Kansas State University"
+      },
+      "scopeIds": [
+        "PUBLIC"
+      ],
+      "type": "page",
+      "lang": "en",
+      "createDate": "2016-01-22T04:58:16.545Z",
+      "createUserId": "7db438071375c02373713c12c73869ff2f470b68.k-state.instructure.comdfbdf54fb633730aac51c54137fcc9fe397fbde7",
+      "updateDate": "2016-01-22T04:58:16.545Z",
+      "updateUserId": "7db438071375c02373713c12c73869ff2f470b68.k-state.instructure.comdfbdf54fb633730aac51c54137fcc9fe397fbde7",
+      "authors": [
+        {
+          "id": "7db438071375c02373713c12c73869ff2f470b68.k-state.instructure.comdfbdf54fb633730aac51c54137fcc9fe397fbde7",
+          "name": "Judy Klimek"
+        }
+      ],
+      "tags": [
+        "learning",
+        "learning style",
+        "strategies",
+        "study ",
+        "study style"
+      ],
+      "sourceId": "/api/v1/courses/15840/content_exports?export_type=common_cartridge&select%5Bpages%5D%5B%5D=62230",
+      "thumbnail": {
+        "url": "https://farm3.staticflickr.com/2741/4361087811_6c41cac3d9_z.jpg",
+        "description": "Study",
+        "attributionName": "JSmith Photo",
+        "attributionUrl": "https://www.flickr.com/photos/22869502@N04/4361087811",
+        "licenseName": "Attribution-NoDerivs License",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nd/2.0/",
+        "height": 444,
+        "width": 640
+      },
+      "gradeIds": [
+        "K"
+      ],
+      "licenseIds": [
+        "attribution"
+      ],
+      "outcomes": [],
+      "count1StarRatings": 0,
+      "count2StarRatings": 0,
+      "count3StarRatings": 0,
+      "count4StarRatings": 0,
+      "count5StarRatings": 0,
+      "exportStatus": "complete",
+      "isPrivate": false,
+      "averageRating": 0,
+      "meta": {
+        "links": {
+          "self": "/api/resources/305783f9afff4c3cb57f0dc3b8db356e"
+        }
+      }
+    },
+    {
+      "id": "3924f427d25249f6912cbb9f31060e08",
+      "title": "Finance & Accounting Test",
+      "description": "BBI",
+      "account": {
+        "id": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.com",
+        "name": "Free For Teachers"
+      },
+      "scopeIds": [
+        "PUBLIC"
+      ],
+      "type": "quiz",
+      "lang": "en",
+      "createDate": "2016-05-09T03:28:07.548Z",
+      "createUserId": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.comee2f2a47a57900f3032af1dec4a644d2fe16c4d6",
+      "updateDate": "2016-05-09T03:28:07.548Z",
+      "updateUserId": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.comee2f2a47a57900f3032af1dec4a644d2fe16c4d6",
+      "authors": [
+        {
+          "id": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.comee2f2a47a57900f3032af1dec4a644d2fe16c4d6",
+          "name": "Melanie Maxin"
+        }
+      ],
+      "tags": [
+        "BBI"
+      ],
+      "sourceId": "/api/v1/courses/1004525/content_exports?export_type=common_cartridge&select%5Bquizzes%5D%5B%5D=1496501",
+      "thumbnail": {
+        "url": "https://farm2.staticflickr.com/1345/888137378_fbf33c82d8_z.jpg",
+        "description": "IMG_9325.JPG",
+        "attributionName": "andydr",
+        "attributionUrl": "https://www.flickr.com/photos/94989596@N00/888137378",
+        "licenseName": "Attribution License",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "height": 640,
+        "width": 480
+      },
+      "gradeIds": [
+        "1",
+        "10",
+        "11",
+        "12",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "G",
+        "HE",
+        "K"
+      ],
+      "licenseIds": [
+        "copyright_reserve"
+      ],
+      "outcomes": [],
+      "count1StarRatings": 0,
+      "count2StarRatings": 0,
+      "count3StarRatings": 0,
+      "count4StarRatings": 0,
+      "count5StarRatings": 0,
+      "exportStatus": "complete",
+      "isPrivate": false,
+      "averageRating": 0,
+      "meta": {
+        "links": {
+          "self": "/api/resources/3924f427d25249f6912cbb9f31060e08"
+        }
+      }
+    },
+    {
+      "id": "10777b8f6d32417d9f4167f6e990da2c",
+      "title": "Student Academic Activity Quiz",
+      "description": "Student Academic Activity Quiz",
+      "account": {
+        "id": "3aefe4320871bd243808eaf0e5173cafc68ad037.webcourses2c.instructure.com",
+        "name": "University of Central Florida"
+      },
+      "scopeIds": [
+        "PUBLIC"
+      ],
+      "type": "quiz",
+      "lang": "en",
+      "createDate": "2016-05-16T17:00:35.141Z",
+      "createUserId": "3aefe4320871bd243808eaf0e5173cafc68ad037.webcourses2c.instructure.com121b79289d554212ae13ed2cff5b0f0f7d20ed24",
+      "updateDate": "2016-05-16T17:00:35.141Z",
+      "updateUserId": "3aefe4320871bd243808eaf0e5173cafc68ad037.webcourses2c.instructure.com121b79289d554212ae13ed2cff5b0f0f7d20ed24",
+      "authors": [
+        {
+          "id": "3aefe4320871bd243808eaf0e5173cafc68ad037.webcourses2c.instructure.com121b79289d554212ae13ed2cff5b0f0f7d20ed24",
+          "name": "Kuppalapalle Vajravelu"
+        }
+      ],
+      "tags": [
+        "quiz"
+      ],
+      "sourceId": "/api/v1/courses/1202433/content_exports?export_type=common_cartridge&select%5Bquizzes%5D%5B%5D=1468830",
+      "thumbnail": {
+        "url": "https://farm9.staticflickr.com/8228/8476722295_34de1742e1_z.jpg",
+        "description": "Calculus",
+        "attributionName": "kawaiikiri",
+        "attributionUrl": "https://www.flickr.com/photos/91267459@N07/8476722295",
+        "licenseName": "Attribution-ShareAlike License",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "height": 427,
+        "width": 640
+      },
+      "gradeIds": [
+        "HE"
+      ],
+      "licenseIds": [
+        "copyright_reserve"
+      ],
+      "outcomes": [],
+      "count1StarRatings": 0,
+      "count2StarRatings": 0,
+      "count3StarRatings": 0,
+      "count4StarRatings": 0,
+      "count5StarRatings": 0,
+      "exportStatus": "complete",
+      "isPrivate": false,
+      "averageRating": 0,
+      "meta": {
+        "links": {
+          "self": "/api/resources/10777b8f6d32417d9f4167f6e990da2c"
+        }
+      }
+    },
+    {
+      "id": "d8ca13b207c144bd8b8ef520a6f9845b",
+      "title": "OCS Character Keynote",
+      "description": "3 word character description with evidence from text. ",
+      "account": {
+        "id": "43de6ae1215da0b50e25b4f0cf05b5925956f3b1.canvas.instructure.com",
+        "name": "Park City School District"
+      },
+      "scopeIds": [
+        "PUBLIC"
+      ],
+      "type": "assignment",
+      "lang": "en",
+      "createDate": "2016-04-14T20:52:05.309Z",
+      "createUserId": "43de6ae1215da0b50e25b4f0cf05b5925956f3b1.canvas.instructure.comb2691ee22bee0f2232641eaaf4dd85d235daf5fb",
+      "updateDate": "2016-04-14T20:52:05.309Z",
+      "updateUserId": "43de6ae1215da0b50e25b4f0cf05b5925956f3b1.canvas.instructure.comb2691ee22bee0f2232641eaaf4dd85d235daf5fb",
+      "authors": [
+        {
+          "id": "43de6ae1215da0b50e25b4f0cf05b5925956f3b1.canvas.instructure.comb2691ee22bee0f2232641eaaf4dd85d235daf5fb",
+          "name": "McGinn, Katharine - Park City:EHMS"
+        }
+      ],
+      "tags": [
+        "One Crazy Summer"
+      ],
+      "sourceId": "/api/v1/courses/991970/content_exports?export_type=common_cartridge&select%5Bassignments%5D%5B%5D=7444374",
+      "thumbnail": {
+        "url": "https://farm8.staticflickr.com/7327/9688190901_3f64b1ac36_z.jpg",
+        "description": "Morning Light",
+        "attributionName": "GollyGforce - Living My Worst Nightmare",
+        "attributionUrl": "https://www.flickr.com/photos/20581458@N00/9688190901",
+        "licenseName": "Attribution License",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "height": 427,
+        "width": 640
+      },
+      "gradeIds": [
+        "6"
+      ],
+      "licenseIds": [
+        "copyright_reserve"
+      ],
+      "outcomes": [],
+      "count1StarRatings": 0,
+      "count2StarRatings": 0,
+      "count3StarRatings": 0,
+      "count4StarRatings": 0,
+      "count5StarRatings": 0,
+      "exportStatus": "complete",
+      "isPrivate": false,
+      "averageRating": 0,
+      "meta": {
+        "links": {
+          "self": "/api/resources/d8ca13b207c144bd8b8ef520a6f9845b"
+        }
+      }
+    },
+    {
+      "id": "af2704dba8354d598b98d74407c50577",
+      "title": "Transformations Exit Ticket",
+      "description": "Transformations Geometry Translation Reflection Rotation on a Coordinate Plane",
+      "account": {
+        "id": "7db438071375c02373713c12c73869ff2f470b68.noblesville.instructure.com",
+        "name": "Noblesville School District"
+      },
+      "scopeIds": [
+        "PUBLIC"
+      ],
+      "type": "quiz",
+      "lang": "en",
+      "createDate": "2016-03-08T13:28:53.341Z",
+      "createUserId": "7db438071375c02373713c12c73869ff2f470b68.noblesville.instructure.com997eb18f22890a2253ef65575ad26cc0bce9c9bb",
+      "updateDate": "2016-03-08T13:28:53.341Z",
+      "updateUserId": "7db438071375c02373713c12c73869ff2f470b68.noblesville.instructure.com997eb18f22890a2253ef65575ad26cc0bce9c9bb",
+      "authors": [
+        {
+          "id": "7db438071375c02373713c12c73869ff2f470b68.noblesville.instructure.com997eb18f22890a2253ef65575ad26cc0bce9c9bb",
+          "name": "Dan Hess"
+        }
+      ],
+      "tags": [
+        "Transformations Geometry Translation Reflection Rotation on a Coordinate Plane"
+      ],
+      "sourceId": "/api/v1/courses/10906/content_exports?export_type=common_cartridge&select%5Bquizzes%5D%5B%5D=44415",
+      "thumbnail": {
+        "url": "https://lor-images.s3.amazonaws.com/thumbnails/uploads/b28688fad07b410e8b145b8f9bc8f47e.jpg",
+        "description": "Uploaded Thumbnail"
+      },
+      "gradeIds": [
+        "10",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "licenseIds": [
+        "copyright_reserve"
+      ],
+      "outcomes": [],
+      "count1StarRatings": "1",
+      "count2StarRatings": 0,
+      "count3StarRatings": 0,
+      "count4StarRatings": 0,
+      "count5StarRatings": 0,
+      "exportStatus": "complete",
+      "isPrivate": false,
+      "averageRating": 1,
+      "meta": {
+        "links": {
+          "self": "/api/resources/af2704dba8354d598b98d74407c50577"
+        }
+      }
+    },
+    {
+      "id": "49c4ab0396984daaa5c0287726112df8",
+      "title": "Utah Great Outdoors",
+      "description": "Lake Blanche up Big Cottonwood Canyon outside Salt Lake.",
+      "account": {
+        "id": "sBSVOHSehgwBXacdVamIGJ1x1J5xGaB32aQy3lbS:canvas-lms",
+        "name": "Community Resources"
+      },
+      "scopeIds": [
+        "PUBLIC"
+      ],
+      "type": "image",
+      "lang": "en",
+      "createDate": "2015-09-11T23:26:48.991Z",
+      "createUserId": "sBSVOHSehgwBXacdVamIGJ1x1J5xGaB32aQy3lbS:canvas-lms3bec1e6da6498110db9f821135bdeb8cfc3c059d",
+      "updateDate": "2015-09-11T23:26:55.411Z",
+      "updateUserId": "sBSVOHSehgwBXacdVamIGJ1x1J5xGaB32aQy3lbS:canvas-lms3bec1e6da6498110db9f821135bdeb8cfc3c059d",
+      "authors": [
+        {
+          "id": "sBSVOHSehgwBXacdVamIGJ1x1J5xGaB32aQy3lbS:canvas-lms3bec1e6da6498110db9f821135bdeb8cfc3c059d",
+          "name": "Scott Dennis",
+          "avatarUrl": "https://resources.instructure.com/images/thumbnails/170000000007329/nu3YLX8q967HZbIeIwnWWs31rcVJ84ODwJIGJDzY"
+        }
+      ],
+      "tags": [
+        "Utah",
+        "nature",
+        "outdoors"
+      ],
+      "sourceId": "/files/19341/download?download_frd=1",
+      "thumbnail": {
+        "url": "https://pensieve-prod-cartridgesbucket-kgv84efgn6zd.s3.amazonaws.com/image_thumbnail_72ea179e9ce94f7bade82af9e2f8dd3b.jpg"
+      },
+      "licenseIds": [
+        "public_domain"
+      ],
+      "outcomes": [],
+      "count1StarRatings": 0,
+      "count2StarRatings": 0,
+      "count3StarRatings": 0,
+      "count4StarRatings": 0,
+      "count5StarRatings": 0,
+      "exportStatus": "complete",
+      "isPrivate": false,
+      "averageRating": 0,
+      "meta": {
+        "links": {
+          "self": "/api/resources/49c4ab0396984daaa5c0287726112df8"
+        }
+      }
+    },
+    {
+      "id": "94666b1ce092474eb2ff038fe8a4f82f",
+      "title": "Boy fishing",
+      "description": "Boy with salmon in a boat",
+      "account": {
+        "id": "sBSVOHSehgwBXacdVamIGJ1x1J5xGaB32aQy3lbS:canvas-lms",
+        "name": "Community Resources"
+      },
+      "scopeIds": [
+        "PUBLIC"
+      ],
+      "type": "image",
+      "lang": "en",
+      "createDate": "2015-09-13T14:53:03.627Z",
+      "createUserId": "sBSVOHSehgwBXacdVamIGJ1x1J5xGaB32aQy3lbS:canvas-lms3bec1e6da6498110db9f821135bdeb8cfc3c059d",
+      "updateDate": "2015-09-13T14:53:10.700Z",
+      "updateUserId": "sBSVOHSehgwBXacdVamIGJ1x1J5xGaB32aQy3lbS:canvas-lms3bec1e6da6498110db9f821135bdeb8cfc3c059d",
+      "authors": [
+        {
+          "id": "sBSVOHSehgwBXacdVamIGJ1x1J5xGaB32aQy3lbS:canvas-lms3bec1e6da6498110db9f821135bdeb8cfc3c059d",
+          "name": "Scott Dennis",
+          "avatarUrl": "https://resources.instructure.com/images/thumbnails/170000000007329/nu3YLX8q967HZbIeIwnWWs31rcVJ84ODwJIGJDzY"
+        }
+      ],
+      "tags": [
+        "boat",
+        "boy",
+        "fishing",
+        "salmon"
+      ],
+      "sourceId": "/files/19416/download?download_frd=1",
+      "thumbnail": {
+        "url": "https://pensieve-prod-cartridgesbucket-kgv84efgn6zd.s3.amazonaws.com/image_thumbnail_307707455fa44511b31ec68589cba65a.jpg"
+      },
+      "licenseIds": [
+        "public_domain"
+      ],
+      "outcomes": [],
+      "count1StarRatings": 0,
+      "count2StarRatings": 0,
+      "count3StarRatings": 0,
+      "count4StarRatings": 0,
+      "count5StarRatings": 0,
+      "exportStatus": "complete",
+      "isPrivate": false,
+      "averageRating": 0,
+      "meta": {
+        "links": {
+          "self": "/api/resources/94666b1ce092474eb2ff038fe8a4f82f"
+        }
+      }
+    },
+    {
+      "id": "5bf94abb5d7949fa8ea384e9f453a0b3",
+      "title": "Computer_Term",
+      "description": "Software and Hardware Terms",
+      "account": {
+        "id": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.com",
+        "name": "Free For Teachers"
+      },
+      "scopeIds": [
+        "PUBLIC"
+      ],
+      "type": "quiz",
+      "lang": "en",
+      "createDate": "2016-01-22T15:58:55.786Z",
+      "createUserId": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.com204c1c2219141be5a93cfb10972582ddd1a7f0d5",
+      "updateDate": "2016-01-22T15:58:55.786Z",
+      "updateUserId": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.com204c1c2219141be5a93cfb10972582ddd1a7f0d5",
+      "authors": [
+        {
+          "id": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.com204c1c2219141be5a93cfb10972582ddd1a7f0d5",
+          "name": "Bowen, Michael"
+        }
+      ],
+      "tags": [
+        "Software"
+      ],
+      "sourceId": "/api/v1/courses/998339/content_exports?export_type=common_cartridge&select%5Bquizzes%5D%5B%5D=1480548",
+      "thumbnail": {
+        "url": "https://lor-images.s3.amazonaws.com/thumbnails/uploads/ec3f5364b4374307a33c64c387c81a4f.jpg",
+        "description": "Uploaded Thumbnail"
+      },
+      "gradeIds": [
+        "10",
+        "11",
+        "12"
+      ],
+      "licenseIds": [
+        "copyright_reserve"
+      ],
+      "outcomes": [],
+      "count1StarRatings": 0,
+      "count2StarRatings": 0,
+      "count3StarRatings": 0,
+      "count4StarRatings": 0,
+      "count5StarRatings": 0,
+      "exportStatus": "complete",
+      "isPrivate": false,
+      "averageRating": 0,
+      "meta": {
+        "links": {
+          "self": "/api/resources/5bf94abb5d7949fa8ea384e9f453a0b3"
+        }
+      }
+    },
+    {
+      "id": "14787c182f8748828326acb17d93bf83",
+      "title": "AP Language and Composition 15-16",
+      "description": "Summer coursework for AP Language",
+      "account": {
+        "id": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.com",
+        "name": "Free For Teachers"
+      },
+      "scopeIds": [
+        "PUBLIC"
+      ],
+      "type": "course",
+      "lang": "en",
+      "createDate": "2016-05-03T02:47:32.199Z",
+      "createUserId": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.come8cde274f07539b7e36e6d840e183260cfe1d278",
+      "updateDate": "2016-05-03T02:47:32.199Z",
+      "updateUserId": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.come8cde274f07539b7e36e6d840e183260cfe1d278",
+      "authors": [
+        {
+          "id": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.come8cde274f07539b7e36e6d840e183260cfe1d278",
+          "name": "Andrew Mullen"
+        }
+      ],
+      "tags": [
+        "APLaC"
+      ],
+      "sourceId": "/api/v1/courses/937641/content_exports?export_type=common_cartridge",
+      "thumbnail": {
+        "url": "https://lor-images.s3.amazonaws.com/thumbnails/uploads/58f6f8f74f8b457f9d1e9e9fbb12f0ec.jpg",
+        "description": "Uploaded Thumbnail"
+      },
+      "gradeIds": [
+        "11"
+      ],
+      "licenseIds": [
+        "copyright_reserve"
+      ],
+      "outcomes": [],
+      "count1StarRatings": 0,
+      "count2StarRatings": 0,
+      "count3StarRatings": 0,
+      "count4StarRatings": 0,
+      "count5StarRatings": 0,
+      "exportStatus": "complete",
+      "isPrivate": false,
+      "averageRating": 0,
+      "meta": {
+        "links": {
+          "self": "/api/resources/14787c182f8748828326acb17d93bf83"
+        }
+      }
+    },
+    {
+      "id": "8cd689f2c50d4fc594ee4bd9b83c8f16",
+      "title": "Family Media Paper",
+      "description": "Family Media Paper",
+      "account": {
+        "id": "mH3hjvtPS21kh7fm2EOHtZqwBikRee6qFM52uFhF:canvas-lms",
+        "name": "Monroe County Com Sch Corp"
+      },
+      "scopeIds": [
+        "PUBLIC"
+      ],
+      "type": "assignment",
+      "lang": "en",
+      "createDate": "2016-04-13T13:05:35.491Z",
+      "createUserId": "mH3hjvtPS21kh7fm2EOHtZqwBikRee6qFM52uFhF:canvas-lmsea96447dfa0a9ae2406ee1edbae815b0b108d06d",
+      "updateDate": "2016-04-13T13:05:35.491Z",
+      "updateUserId": "mH3hjvtPS21kh7fm2EOHtZqwBikRee6qFM52uFhF:canvas-lmsea96447dfa0a9ae2406ee1edbae815b0b108d06d",
+      "authors": [
+        {
+          "id": "mH3hjvtPS21kh7fm2EOHtZqwBikRee6qFM52uFhF:canvas-lmsea96447dfa0a9ae2406ee1edbae815b0b108d06d",
+          "name": "Don Adams"
+        }
+      ],
+      "tags": [
+        "Adams Aiken"
+      ],
+      "sourceId": "/api/v1/courses/9402/content_exports?export_type=common_cartridge&select%5Bassignments%5D%5B%5D=37022",
+      "thumbnail": {
+        "url": "https://farm6.staticflickr.com/5583/14763522642_ffebbd88e2_z.jpg",
+        "description": "Image from page 262 of \"Peoria, Illinois, city directory\" (1910)",
+        "attributionName": "Internet Archive Book Images",
+        "attributionUrl": "https://www.flickr.com/photos/126377022@N07/14763522642",
+        "licenseName": "No known copyright restrictions",
+        "licenseUrl": "https://www.flickr.com/commons/usage/",
+        "height": 187,
+        "width": 640
+      },
+      "gradeIds": [
+        "10",
+        "9"
+      ],
+      "licenseIds": [
+        "public_domain"
+      ],
+      "outcomes": [],
+      "count1StarRatings": 0,
+      "count2StarRatings": 0,
+      "count3StarRatings": 0,
+      "count4StarRatings": 0,
+      "count5StarRatings": 0,
+      "exportStatus": "complete",
+      "isPrivate": false,
+      "averageRating": 0,
+      "meta": {
+        "links": {
+          "self": "/api/resources/8cd689f2c50d4fc594ee4bd9b83c8f16"
+        }
+      }
+    },
+    {
+      "id": "f76a733c63244395b2d8ebe9c82ff8ed",
+      "title": "MOK EOG CALC INACTIVE WAGRAM",
+      "description": "NC RELEASED EOG 2015",
+      "account": {
+        "id": "CBJk2MjOsoQajQGjBgW5WTe40yV5yvVUCxB5umD5:canvas-lms",
+        "name": " Scotland County Schools NC"
+      },
+      "scopeIds": [
+        "PUBLIC"
+      ],
+      "type": "quiz",
+      "lang": "en",
+      "createDate": "2016-05-09T12:19:23.223Z",
+      "createUserId": "CBJk2MjOsoQajQGjBgW5WTe40yV5yvVUCxB5umD5:canvas-lms89f168794a9f869d9bc9b660a5410c1ea2862a62",
+      "updateDate": "2016-05-09T12:19:23.223Z",
+      "updateUserId": "CBJk2MjOsoQajQGjBgW5WTe40yV5yvVUCxB5umD5:canvas-lms89f168794a9f869d9bc9b660a5410c1ea2862a62",
+      "authors": [
+        {
+          "id": "CBJk2MjOsoQajQGjBgW5WTe40yV5yvVUCxB5umD5:canvas-lms89f168794a9f869d9bc9b660a5410c1ea2862a62",
+          "name": "Christine Haber"
+        }
+      ],
+      "tags": [
+        "COMMUNITY"
+      ],
+      "sourceId": "/api/v1/courses/4590/content_exports?export_type=common_cartridge&select%5Bquizzes%5D%5B%5D=5648",
+      "thumbnail": {
+        "url": "https://farm3.staticflickr.com/2014/1779033721_ef46e7b8f2_z.jpg",
+        "description": "de Mok, Texel",
+        "attributionName": "björn hornemann",
+        "attributionUrl": "https://www.flickr.com/photos/15985298@N00/1779033721",
+        "licenseName": "Attribution License",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "height": 480,
+        "width": 640
+      },
+      "gradeIds": [
+        "4"
+      ],
+      "licenseIds": [
+        "public_domain"
+      ],
+      "outcomes": [],
+      "count1StarRatings": 0,
+      "count2StarRatings": 0,
+      "count3StarRatings": 0,
+      "count4StarRatings": 0,
+      "count5StarRatings": 0,
+      "exportStatus": "complete",
+      "isPrivate": false,
+      "averageRating": 0,
+      "meta": {
+        "links": {
+          "self": "/api/resources/f76a733c63244395b2d8ebe9c82ff8ed"
+        }
+      }
+    },
+    {
+      "id": "2c32f8b13c954f6da911a8c7c0bc6ed8",
+      "title": "Flocabulary ~ March 18, 2016 ",
+      "description": "Flocabulary Week in Rap March 18",
+      "account": {
+        "id": "jauqH6Btd870mUbsSl1mgd0EehhcpbSCnEVDCi6C",
+        "name": "State of Mississippi RCU"
+      },
+      "scopeIds": [
+        "PUBLIC"
+      ],
+      "type": "quiz",
+      "lang": "en",
+      "createDate": "2016-03-18T19:47:25.916Z",
+      "createUserId": "jauqH6Btd870mUbsSl1mgd0EehhcpbSCnEVDCi6Cef4cff6c28a73ae1105a09b7040d2a9bf806207d",
+      "updateDate": "2016-03-29T17:33:20.188Z",
+      "updateUserId": "jauqH6Btd870mUbsSl1mgd0EehhcpbSCnEVDCi6Cef4cff6c28a73ae1105a09b7040d2a9bf806207d",
+      "authors": [
+        {
+          "id": "jauqH6Btd870mUbsSl1mgd0EehhcpbSCnEVDCi6Cef4cff6c28a73ae1105a09b7040d2a9bf806207d",
+          "name": "Tammy Goins"
+        }
+      ],
+      "tags": [
+        "Flocabulary Week in Rap March 18"
+      ],
+      "sourceId": "/api/v1/courses/7144/content_exports?export_type=common_cartridge&select%5Bquizzes%5D%5B%5D=62598",
+      "thumbnail": {
+        "url": "https://lor-images.s3.amazonaws.com/thumbnails/uploads/8bc2a5f9bc304ca19a2a96c4e84eeea8.jpg",
+        "description": "Uploaded Thumbnail"
+      },
+      "gradeIds": [
+        "1",
+        "10",
+        "11",
+        "12",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "G",
+        "HE",
+        "K"
+      ],
+      "licenseIds": [
+        "copyright_reserve"
+      ],
+      "outcomes": [],
+      "count1StarRatings": "0",
+      "count2StarRatings": "0",
+      "count3StarRatings": "0",
+      "count4StarRatings": "0",
+      "count5StarRatings": "0",
+      "exportStatus": "complete",
+      "isPrivate": false,
+      "averageRating": 0,
+      "meta": {
+        "links": {
+          "self": "/api/resources/2c32f8b13c954f6da911a8c7c0bc6ed8"
+        }
+      }
+    },
+    {
+      "id": "e28f6baa10a44aa9ba9bae5fd6db7adf",
+      "title": "6th Grade End of Year ",
+      "description": "End of Year Assessment",
+      "account": {
+        "id": "83b8c764cacf21bdb1f9e20f123b91fa07bfb686.canyons.instructure.com",
+        "name": "Canyons School District"
+      },
+      "scopeIds": [
+        "PUBLIC"
+      ],
+      "type": "quiz",
+      "lang": "en",
+      "createDate": "2016-04-20T16:53:21.575Z",
+      "createUserId": "83b8c764cacf21bdb1f9e20f123b91fa07bfb686.canyons.instructure.comde733f1636b71f6e032dbd81fc97caf32b50568c",
+      "updateDate": "2016-04-20T16:53:21.575Z",
+      "updateUserId": "83b8c764cacf21bdb1f9e20f123b91fa07bfb686.canyons.instructure.comde733f1636b71f6e032dbd81fc97caf32b50568c",
+      "authors": [
+        {
+          "id": "83b8c764cacf21bdb1f9e20f123b91fa07bfb686.canyons.instructure.comde733f1636b71f6e032dbd81fc97caf32b50568c",
+          "name": "SAMANTHA BURTON"
+        }
+      ],
+      "tags": [
+        "assessment",
+        "end of year",
+        "grammar",
+        "listening",
+        "reading"
+      ],
+      "sourceId": "/api/v1/courses/993362/content_exports?export_type=common_cartridge&select%5Bquizzes%5D%5B%5D=1481649",
+      "thumbnail": {
+        "url": "https://farm1.staticflickr.com/24/50456484_cef7d54b8f_z.jpg",
+        "description": "Sprinkler",
+        "attributionName": "Shaylor",
+        "attributionUrl": "https://www.flickr.com/photos/76395515@N00/50456484",
+        "licenseName": "Attribution-NoDerivs License",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nd/2.0/",
+        "height": 427,
+        "width": 640
+      },
+      "gradeIds": [
+        "6"
+      ],
+      "licenseIds": [
+        "copyright_reserve"
+      ],
+      "outcomes": [],
+      "count1StarRatings": 0,
+      "count2StarRatings": 0,
+      "count3StarRatings": 0,
+      "count4StarRatings": 0,
+      "count5StarRatings": 0,
+      "exportStatus": "complete",
+      "isPrivate": false,
+      "averageRating": 0,
+      "meta": {
+        "links": {
+          "self": "/api/resources/e28f6baa10a44aa9ba9bae5fd6db7adf"
+        }
+      }
+    },
+    {
+      "id": "a6d5b5e7d2544823a762af185896e77e",
+      "title": "Welcome to CANVAS - CANVAS Student Orientation",
+      "description": "NTCC Student CANVAS Orientation",
+      "account": {
+        "id": "jW9MEfXmPkSiiOVlLnXbhkgDVDnJ5hq3fLKXzDzi:canvas-lms",
+        "name": "LCTCS"
+      },
+      "scopeIds": [
+        "PUBLIC"
+      ],
+      "type": "module",
+      "lang": "en",
+      "createDate": "2016-01-13T20:42:03.950Z",
+      "createUserId": "jW9MEfXmPkSiiOVlLnXbhkgDVDnJ5hq3fLKXzDzi:canvas-lms40346a641b7fe8df2a92622219d5d288ae8dc7f4",
+      "updateDate": "2016-01-13T20:42:03.950Z",
+      "updateUserId": "jW9MEfXmPkSiiOVlLnXbhkgDVDnJ5hq3fLKXzDzi:canvas-lms40346a641b7fe8df2a92622219d5d288ae8dc7f4",
+      "authors": [
+        {
+          "id": "jW9MEfXmPkSiiOVlLnXbhkgDVDnJ5hq3fLKXzDzi:canvas-lms40346a641b7fe8df2a92622219d5d288ae8dc7f4",
+          "name": "Karolyn Harrell"
+        }
+      ],
+      "tags": [
+        "NTCC"
+      ],
+      "sourceId": "/api/v1/courses/46807/content_exports?export_type=common_cartridge&select%5Bmodules%5D%5B%5D=109087",
+      "thumbnail": {
+        "url": "https://farm3.staticflickr.com/2755/4022566308_855b9c8934_z.jpg?zz=1",
+        "description": "Direction",
+        "attributionName": "Ramkarthikblogger",
+        "attributionUrl": "https://www.flickr.com/photos/10548335@N04/4022566308",
+        "licenseName": "Attribution License",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "height": 480,
+        "width": 640
+      },
+      "gradeIds": [
+        "HE"
+      ],
+      "licenseIds": [
+        "public_domain"
+      ],
+      "outcomes": [],
+      "count1StarRatings": 0,
+      "count2StarRatings": 0,
+      "count3StarRatings": 0,
+      "count4StarRatings": 0,
+      "count5StarRatings": 0,
+      "exportStatus": "complete",
+      "isPrivate": false,
+      "averageRating": 0,
+      "meta": {
+        "links": {
+          "self": "/api/resources/a6d5b5e7d2544823a762af185896e77e"
+        }
+      }
+    },
+    {
+      "id": "ee43abf447cf4924b01a4e05dd4c8da5",
+      "title": "Sheet Metal Shears - Manual and Hydraulic",
+      "description": "Safety Test",
+      "account": {
+        "id": "ONKr57hPtgwLf4R2VpYTuO8va05LxtjPGImUw4Sg",
+        "name": "Bethel School District"
+      },
+      "scopeIds": [
+        "PUBLIC"
+      ],
+      "type": "quiz",
+      "lang": "en",
+      "createDate": "2016-04-21T16:54:55.606Z",
+      "createUserId": "ONKr57hPtgwLf4R2VpYTuO8va05LxtjPGImUw4Sg0a49811103ba7f20e2036c23a557ce9da5ef3190",
+      "updateDate": "2016-04-21T16:54:55.606Z",
+      "updateUserId": "ONKr57hPtgwLf4R2VpYTuO8va05LxtjPGImUw4Sg0a49811103ba7f20e2036c23a557ce9da5ef3190",
+      "authors": [
+        {
+          "id": "ONKr57hPtgwLf4R2VpYTuO8va05LxtjPGImUw4Sg0a49811103ba7f20e2036c23a557ce9da5ef3190",
+          "name": "BRISTON J TRAPP"
+        }
+      ],
+      "tags": [
+        "shear safety test trapp pcsc"
+      ],
+      "sourceId": "/api/v1/courses/11412/content_exports?export_type=common_cartridge&select%5Bquizzes%5D%5B%5D=9227",
+      "thumbnail": {
+        "url": "https://farm1.staticflickr.com/5/5298483_585104a9d4_z.jpg",
+        "description": "Tools",
+        "attributionName": "psd",
+        "attributionUrl": "https://www.flickr.com/photos/45581782@N00/5298483",
+        "licenseName": "Attribution License",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "height": 480,
+        "width": 640
+      },
+      "gradeIds": [
+        "1",
+        "10",
+        "11",
+        "12",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "G",
+        "HE",
+        "K"
+      ],
+      "licenseIds": [
+        "public_domain"
+      ],
+      "outcomes": [],
+      "count1StarRatings": 0,
+      "count2StarRatings": 0,
+      "count3StarRatings": 0,
+      "count4StarRatings": 0,
+      "count5StarRatings": 0,
+      "exportStatus": "complete",
+      "isPrivate": false,
+      "averageRating": 0,
+      "meta": {
+        "links": {
+          "self": "/api/resources/ee43abf447cf4924b01a4e05dd4c8da5"
+        }
+      }
+    },
+    {
+      "id": "56e3cd191eec4b3d8b3813ad35e60fa1",
+      "title": "Conversion Test",
+      "description": "A fill in the blank test on conversions of measurement.",
+      "account": {
+        "id": "QWPUwXWBoOH6fzQNlVeY5APAVY0lytT8a4oVrYAE:canvas-lms",
+        "name": "Southwest School Dist 7715"
+      },
+      "scopeIds": [
+        "PUBLIC"
+      ],
+      "type": "quiz",
+      "lang": "en",
+      "createDate": "2016-03-29T20:29:30.196Z",
+      "createUserId": "QWPUwXWBoOH6fzQNlVeY5APAVY0lytT8a4oVrYAE:canvas-lmsd3bc26aeef8cae83a57e0dd6e80b859c7c3509c8",
+      "updateDate": "2016-03-29T20:29:30.196Z",
+      "updateUserId": "QWPUwXWBoOH6fzQNlVeY5APAVY0lytT8a4oVrYAE:canvas-lmsd3bc26aeef8cae83a57e0dd6e80b859c7c3509c8",
+      "authors": [
+        {
+          "id": "QWPUwXWBoOH6fzQNlVeY5APAVY0lytT8a4oVrYAE:canvas-lmsd3bc26aeef8cae83a57e0dd6e80b859c7c3509c8",
+          "name": "Janna Buckley"
+        }
+      ],
+      "tags": [
+        "Math: Measurement"
+      ],
+      "sourceId": "/api/v1/courses/1201/content_exports?export_type=common_cartridge&select%5Bquizzes%5D%5B%5D=3525",
+      "thumbnail": {
+        "url": "https://farm5.staticflickr.com/4064/4311409835_51c05f07ca_z.jpg",
+        "description": "measure",
+        "attributionName": "Mad House Photography",
+        "attributionUrl": "https://www.flickr.com/photos/46629136@N05/4311409835",
+        "licenseName": "Attribution License",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "height": 480,
+        "width": 640
+      },
+      "gradeIds": [
+        "3",
+        "4"
+      ],
+      "licenseIds": [
+        "public_domain"
+      ],
+      "outcomes": [],
+      "count1StarRatings": 0,
+      "count2StarRatings": 0,
+      "count3StarRatings": 0,
+      "count4StarRatings": 0,
+      "count5StarRatings": 0,
+      "exportStatus": "complete",
+      "isPrivate": false,
+      "averageRating": 0,
+      "meta": {
+        "links": {
+          "self": "/api/resources/56e3cd191eec4b3d8b3813ad35e60fa1"
+        }
+      }
+    },
+    {
+      "id": "d70556f8d6de486191c942c1ac851f31",
+      "title": "Train the Trainer",
+      "description": "Train the Trainer for Industry",
+      "account": {
+        "id": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.com",
+        "name": "Free For Teachers"
+      },
+      "scopeIds": [
+        "PUBLIC"
+      ],
+      "type": "course",
+      "lang": "en",
+      "createDate": "2015-12-11T15:55:56.158Z",
+      "createUserId": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.combc2506e3c733917761ba890ca662b819a19763e0",
+      "updateDate": "2015-12-11T15:55:56.158Z",
+      "updateUserId": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.combc2506e3c733917761ba890ca662b819a19763e0",
+      "authors": [
+        {
+          "id": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.combc2506e3c733917761ba890ca662b819a19763e0",
+          "name": "Brandi Turnipseed"
+        }
+      ],
+      "tags": [
+        "Industry"
+      ],
+      "sourceId": "/api/v1/courses/979795/content_exports?export_type=common_cartridge",
+      "thumbnail": {
+        "url": "https://lor-images.s3.amazonaws.com/thumbnails/uploads/cf503333d1bf49288e6a942332e6cccc.jpg",
+        "description": "Uploaded Thumbnail"
+      },
+      "gradeIds": [
+        "1",
+        "10",
+        "11",
+        "12",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "licenseIds": [
+        "copyright_reserve"
+      ],
+      "outcomes": [],
+      "count1StarRatings": 0,
+      "count2StarRatings": 0,
+      "count3StarRatings": 0,
+      "count4StarRatings": 0,
+      "count5StarRatings": 0,
+      "exportStatus": "complete",
+      "isPrivate": false,
+      "averageRating": 0,
+      "meta": {
+        "links": {
+          "self": "/api/resources/d70556f8d6de486191c942c1ac851f31"
+        }
+      }
+    },
+    {
+      "id": "41e47356af2f44da897fe0df177a50ae",
+      "title": "Convert YouTube to MP3 Tutorial",
+      "description": "This tutorial will instruct students how to download Youtube videos and convert them to MP3s, so they can import and use the MP3 in Audacity.",
+      "account": {
+        "id": "MnOdF0RQgMAseGFVDk6AxvHOyReHu4nEtcr5i9NM:canvas-lms",
+        "name": "Broken Arrow Public Schools"
+      },
+      "scopeIds": [
+        "PUBLIC"
+      ],
+      "type": "assignment",
+      "lang": "en",
+      "createDate": "2016-03-29T13:41:03.427Z",
+      "createUserId": "MnOdF0RQgMAseGFVDk6AxvHOyReHu4nEtcr5i9NM:canvas-lms654326c9f2f3e31537083d8e975792f9fd44da9f",
+      "updateDate": "2016-03-29T13:41:03.427Z",
+      "updateUserId": "MnOdF0RQgMAseGFVDk6AxvHOyReHu4nEtcr5i9NM:canvas-lms654326c9f2f3e31537083d8e975792f9fd44da9f",
+      "authors": [
+        {
+          "id": "MnOdF0RQgMAseGFVDk6AxvHOyReHu4nEtcr5i9NM:canvas-lms654326c9f2f3e31537083d8e975792f9fd44da9f",
+          "name": "Megan O'Brien"
+        }
+      ],
+      "tags": [
+        "Audacity",
+        "Computer Technology",
+        "MP3",
+        "YouTube"
+      ],
+      "sourceId": "/api/v1/courses/15757/content_exports?export_type=common_cartridge&select%5Bassignments%5D%5B%5D=15446",
+      "thumbnail": {
+        "url": "https://farm9.staticflickr.com/8158/7153355007_28529b463f_z.jpg",
+        "description": "DSC02379s",
+        "attributionName": "HotlantaVoyeur",
+        "attributionUrl": "https://www.flickr.com/photos/33591211@N04/7153355007",
+        "licenseName": "Attribution License",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "height": 640,
+        "width": 433
+      },
+      "gradeIds": [
+        "1",
+        "10",
+        "11",
+        "12",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "G",
+        "HE",
+        "K"
+      ],
+      "licenseIds": [
+        "public_domain"
+      ],
+      "outcomes": [],
+      "count1StarRatings": 0,
+      "count2StarRatings": 0,
+      "count3StarRatings": 0,
+      "count4StarRatings": 0,
+      "count5StarRatings": 0,
+      "exportStatus": "complete",
+      "isPrivate": false,
+      "averageRating": 0,
+      "meta": {
+        "links": {
+          "self": "/api/resources/41e47356af2f44da897fe0df177a50ae"
+        }
+      }
+    },
+    {
+      "id": "3316a43c98544efe9e3e32e1c6d895b5",
+      "title": "Using Discovery Education to Increase Student Proficiency in Reading",
+      "description": "This course includes three distinct training modules that will demonstrate how to build and assign Probes using the features of Discovery Education.",
+      "account": {
+        "id": "LwOlYjxyPUffCH0bquGJdaqKyJvHNPay7ojVQNdg:canvas-lms",
+        "name": "Cabarrus County Schools"
+      },
+      "scopeIds": [
+        "PUBLIC"
+      ],
+      "type": "course",
+      "lang": "en",
+      "createDate": "2016-04-18T16:26:34.884Z",
+      "createUserId": "LwOlYjxyPUffCH0bquGJdaqKyJvHNPay7ojVQNdg:canvas-lmsafcd39d1403b1662aec52fbb7fffe9366a56066b",
+      "updateDate": "2016-04-18T16:26:34.884Z",
+      "updateUserId": "LwOlYjxyPUffCH0bquGJdaqKyJvHNPay7ojVQNdg:canvas-lmsafcd39d1403b1662aec52fbb7fffe9366a56066b",
+      "authors": [
+        {
+          "id": "LwOlYjxyPUffCH0bquGJdaqKyJvHNPay7ojVQNdg:canvas-lmsafcd39d1403b1662aec52fbb7fffe9366a56066b",
+          "name": "Krista Collins"
+        }
+      ],
+      "tags": [
+        "Discovery Education Probes"
+      ],
+      "sourceId": "/api/v1/courses/27056/content_exports?export_type=common_cartridge",
+      "thumbnail": {
+        "url": "https://farm3.staticflickr.com/2610/3880903546_b6821e1e68_z.jpg?zz=1",
+        "description": "my first planet",
+        "attributionName": "stephanie_in_love",
+        "attributionUrl": "https://www.flickr.com/photos/38540952@N05/3880903546",
+        "licenseName": "Attribution License",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "height": 640,
+        "width": 640
+      },
+      "gradeIds": [
+        "10",
+        "11",
+        "12",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "licenseIds": [
+        "copyright_reserve"
+      ],
+      "outcomes": [],
+      "count1StarRatings": 0,
+      "count2StarRatings": 0,
+      "count3StarRatings": 0,
+      "count4StarRatings": 0,
+      "count5StarRatings": 0,
+      "exportStatus": "complete",
+      "isPrivate": false,
+      "averageRating": 0,
+      "meta": {
+        "links": {
+          "self": "/api/resources/3316a43c98544efe9e3e32e1c6d895b5"
+        }
+      }
+    },
+    {
+      "id": "e5a0daa60b5c4455864b1fa0a273ea5e",
+      "title": "Summary Product",
+      "description": "Marketing - Following a product",
+      "account": {
+        "id": "g3pbWUbEMwrUqCXRQC66ieOT20eDG5tJQM29BZx2:canvas-lms",
+        "name": "Salt Lake City Schools"
+      },
+      "scopeIds": [
+        "PUBLIC"
+      ],
+      "type": "module",
+      "lang": "en",
+      "createDate": "2016-04-08T18:54:27.139Z",
+      "createUserId": "g3pbWUbEMwrUqCXRQC66ieOT20eDG5tJQM29BZx2:canvas-lmsdfe4e219db0d87a18891f41012ce3b1d0a11a42c",
+      "updateDate": "2016-04-08T18:57:05.641Z",
+      "updateUserId": "g3pbWUbEMwrUqCXRQC66ieOT20eDG5tJQM29BZx2:canvas-lmsdfe4e219db0d87a18891f41012ce3b1d0a11a42c",
+      "authors": [
+        {
+          "id": "g3pbWUbEMwrUqCXRQC66ieOT20eDG5tJQM29BZx2:canvas-lmsdfe4e219db0d87a18891f41012ce3b1d0a11a42c",
+          "name": "Viliata Tua'one"
+        }
+      ],
+      "tags": [
+        "Product Marketing"
+      ],
+      "sourceId": "/api/v1/courses/4338/content_exports?export_type=common_cartridge&select%5Bmodules%5D%5B%5D=391",
+      "thumbnail": {
+        "url": "https://farm3.staticflickr.com/2846/9555115180_358cc6b152_z.jpg",
+        "description": "Spitalfields Style Market  15/6/2013",
+        "attributionName": "Spitalfields_E1",
+        "attributionUrl": "https://www.flickr.com/photos/52218898@N03/9555115180",
+        "licenseName": "Attribution-ShareAlike License",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "height": 400,
+        "width": 600
+      },
+      "gradeIds": [
+        "10",
+        "11",
+        "12",
+        "9"
+      ],
+      "licenseIds": [
+        "copyright_reserve"
+      ],
+      "outcomes": [],
+      "count1StarRatings": "0",
+      "count2StarRatings": "0",
+      "count3StarRatings": "0",
+      "count4StarRatings": "0",
+      "count5StarRatings": "0",
+      "exportStatus": "complete",
+      "isPrivate": false,
+      "averageRating": 0,
+      "meta": {
+        "links": {
+          "self": "/api/resources/e5a0daa60b5c4455864b1fa0a273ea5e"
+        }
+      }
+    },
+    {
+      "id": "56dd49fa10594fa8ab046d9c21325433",
+      "title": "Soil and Worms Research",
+      "description": "Resources for 1st Grade learning about worms.",
+      "account": {
+        "id": "7db438071375c02373713c12c73869ff2f470b68.noblesville.instructure.com",
+        "name": "Noblesville School District"
+      },
+      "scopeIds": [
+        "PUBLIC"
+      ],
+      "type": "page",
+      "lang": "en",
+      "createDate": "2016-04-15T15:23:25.150Z",
+      "createUserId": "7db438071375c02373713c12c73869ff2f470b68.noblesville.instructure.com3dc80aadb671e9ffe98220d748f977b3b958f8f5",
+      "updateDate": "2016-04-15T15:23:25.150Z",
+      "updateUserId": "7db438071375c02373713c12c73869ff2f470b68.noblesville.instructure.com3dc80aadb671e9ffe98220d748f977b3b958f8f5",
+      "authors": [
+        {
+          "id": "7db438071375c02373713c12c73869ff2f470b68.noblesville.instructure.com3dc80aadb671e9ffe98220d748f977b3b958f8f5",
+          "name": "Mitchell Mosbey"
+        }
+      ],
+      "tags": [
+        "Research",
+        "Soil",
+        "Worms"
+      ],
+      "sourceId": "/api/v1/courses/14095/content_exports?export_type=common_cartridge&select%5Bpages%5D%5B%5D=123159",
+      "thumbnail": {
+        "url": "https://farm6.staticflickr.com/5608/15645876062_3b22c0968d_z.jpg",
+        "description": "Worm Macro",
+        "attributionName": "Groman123",
+        "attributionUrl": "https://www.flickr.com/photos/85203634@N05/15645876062",
+        "licenseName": "Attribution-ShareAlike License",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "height": 427,
+        "width": 640
+      },
+      "gradeIds": [
+        "1",
+        "K"
+      ],
+      "licenseIds": [
+        "attribution_noderivs"
+      ],
+      "outcomes": [],
+      "count1StarRatings": 0,
+      "count2StarRatings": 0,
+      "count3StarRatings": 0,
+      "count4StarRatings": 0,
+      "count5StarRatings": 0,
+      "exportStatus": "complete",
+      "isPrivate": false,
+      "averageRating": 0,
+      "meta": {
+        "links": {
+          "self": "/api/resources/56dd49fa10594fa8ab046d9c21325433"
+        }
+      }
+    },
+    {
+      "id": "5172aa178c8846e4a801b6102f952031",
+      "title": "Texting Video Assignment",
+      "description": "Texting Video Assignment",
+      "account": {
+        "id": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.com",
+        "name": "Free For Teachers"
+      },
+      "scopeIds": [
+        "PUBLIC"
+      ],
+      "type": "assignment",
+      "lang": "en",
+      "createDate": "2016-05-10T22:29:14.093Z",
+      "createUserId": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.comf560868c72c89015e09b18bf170a1d573322a873",
+      "updateDate": "2016-05-10T22:29:14.093Z",
+      "updateUserId": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.comf560868c72c89015e09b18bf170a1d573322a873",
+      "authors": [
+        {
+          "id": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.comf560868c72c89015e09b18bf170a1d573322a873",
+          "name": "Frank Allison"
+        }
+      ],
+      "tags": [
+        "Drivers Education"
+      ],
+      "sourceId": "/api/v1/courses/989779/content_exports?export_type=common_cartridge&select%5Bmodule_items%5D%5B%5D=9508977",
+      "thumbnail": {
+        "url": "https://farm6.staticflickr.com/5054/5572276392_a72acfbc5e_z.jpg",
+        "description": "Driver's Education",
+        "attributionName": "Trailnet",
+        "attributionUrl": "https://www.flickr.com/photos/26129297@N02/5572276392",
+        "licenseName": "Attribution-ShareAlike License",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "height": 480,
+        "width": 640
+      },
+      "gradeIds": [
+        "1",
+        "10",
+        "11",
+        "12",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "G",
+        "HE",
+        "K"
+      ],
+      "licenseIds": [
+        "copyright_reserve"
+      ],
+      "outcomes": [],
+      "count1StarRatings": 0,
+      "count2StarRatings": 0,
+      "count3StarRatings": 0,
+      "count4StarRatings": 0,
+      "count5StarRatings": 0,
+      "exportStatus": "complete",
+      "isPrivate": false,
+      "averageRating": 0,
+      "meta": {
+        "links": {
+          "self": "/api/resources/5172aa178c8846e4a801b6102f952031"
+        }
+      }
+    },
+    {
+      "id": "cf1071e46c2b49ea8758c7f037567c94",
+      "title": "Chapter 2 - Sig Figs and Friends",
+      "description": "Sig Figs Worksheets and Powerpoint",
+      "account": {
+        "id": "3fcd409dffb0291ac447f680977baa704ad39f3a.everettcc.instructure.com",
+        "name": "Everett Community College"
+      },
+      "scopeIds": [
+        "PUBLIC"
+      ],
+      "type": "module",
+      "lang": "en",
+      "createDate": "2015-09-24T18:42:46.772Z",
+      "createUserId": "3fcd409dffb0291ac447f680977baa704ad39f3a.everettcc.instructure.comc0f0491ec587df875543999393ea76043745e824",
+      "updateDate": "2015-09-24T18:42:46.772Z",
+      "updateUserId": "3fcd409dffb0291ac447f680977baa704ad39f3a.everettcc.instructure.comc0f0491ec587df875543999393ea76043745e824",
+      "authors": [
+        {
+          "id": "3fcd409dffb0291ac447f680977baa704ad39f3a.everettcc.instructure.comc0f0491ec587df875543999393ea76043745e824",
+          "name": "Morgan Stock",
+          "avatarUrl": "https://everettcc.instructure.com/images/thumbnails/49779409/26N0WFAh4JVZWGLMRkDdFsZSEVnku318f3Tomd1f"
+        }
+      ],
+      "tags": [
+        "Chemistry",
+        "Sig Figs"
+      ],
+      "sourceId": "/api/v1/courses/1191421/content_exports?export_type=common_cartridge&select%5Bmodules%5D%5B%5D=1832246",
+      "thumbnail": {
+        "url": "http://lor-images.s3.amazonaws.com/subjects/math/Math-07-262x147.jpg",
+        "description": "Mathematical equations handwritten on notebook page with slide ruler"
+      },
+      "licenseIds": [
+        "public_domain"
+      ],
+      "outcomes": [],
+      "count1StarRatings": 0,
+      "count2StarRatings": 0,
+      "count3StarRatings": 0,
+      "count4StarRatings": 0,
+      "count5StarRatings": 0,
+      "exportStatus": "complete",
+      "isPrivate": false,
+      "averageRating": 0,
+      "meta": {
+        "links": {
+          "self": "/api/resources/cf1071e46c2b49ea8758c7f037567c94"
+        }
+      }
+    },
+    {
+      "id": "33f06c8ef06e47c7af07b0319cef73b0",
+      "title": "EOC Practice Test",
+      "description": "This is a DESE released EOC practice test intended for students who are taking the English II EOC exam. ",
+      "account": {
+        "id": "8393bfb54968692c57769709224be295a30b4bff.canvas.instructure.com",
+        "name": "Springfield Public Schools"
+      },
+      "scopeIds": [
+        "PUBLIC"
+      ],
+      "type": "quiz",
+      "lang": "en",
+      "createDate": "2016-04-10T14:48:30.514Z",
+      "createUserId": "8393bfb54968692c57769709224be295a30b4bff.canvas.instructure.com79e260a5c72be016e4930db5afc02d78d0a5c088",
+      "updateDate": "2016-04-10T14:48:30.514Z",
+      "updateUserId": "8393bfb54968692c57769709224be295a30b4bff.canvas.instructure.com79e260a5c72be016e4930db5afc02d78d0a5c088",
+      "authors": [
+        {
+          "id": "8393bfb54968692c57769709224be295a30b4bff.canvas.instructure.com79e260a5c72be016e4930db5afc02d78d0a5c088",
+          "name": "AMANDA MONTILEONE"
+        }
+      ],
+      "tags": [
+        "EOC",
+        "English II"
+      ],
+      "sourceId": "/api/v1/courses/414863/content_exports?export_type=common_cartridge&select%5Bquizzes%5D%5B%5D=785093",
+      "thumbnail": {
+        "url": "https://farm4.staticflickr.com/3291/2730404049_ef3d7ab644_z.jpg",
+        "description": "test",
+        "attributionName": "justinsomnia",
+        "attributionUrl": "https://www.flickr.com/photos/36983395@N00/2730404049",
+        "licenseName": "Attribution License",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "height": 640,
+        "width": 640
+      },
+      "gradeIds": [
+        "10"
+      ],
+      "licenseIds": [
+        "copyright_reserve"
+      ],
+      "outcomes": [],
+      "count1StarRatings": 0,
+      "count2StarRatings": 0,
+      "count3StarRatings": 0,
+      "count4StarRatings": 0,
+      "count5StarRatings": 0,
+      "exportStatus": "complete",
+      "isPrivate": false,
+      "averageRating": 0,
+      "meta": {
+        "links": {
+          "self": "/api/resources/33f06c8ef06e47c7af07b0319cef73b0"
+        }
+      }
+    },
+    {
+      "id": "c98dc59b61b14a0684a0071d7394d364",
+      "title": "March Madness Vocabulary Quiz",
+      "description": "March Madness Vocabulary Quiz",
+      "account": {
+        "id": "7db438071375c02373713c12c73869ff2f470b68.noblesville.instructure.com",
+        "name": "Noblesville School District"
+      },
+      "scopeIds": [
+        "PUBLIC"
+      ],
+      "type": "quiz",
+      "lang": "en",
+      "createDate": "2016-03-21T01:42:16.099Z",
+      "createUserId": "7db438071375c02373713c12c73869ff2f470b68.noblesville.instructure.comc79c53401f4e46c8de12b4226334baab21670742",
+      "updateDate": "2016-03-21T01:42:16.099Z",
+      "updateUserId": "7db438071375c02373713c12c73869ff2f470b68.noblesville.instructure.comc79c53401f4e46c8de12b4226334baab21670742",
+      "authors": [
+        {
+          "id": "7db438071375c02373713c12c73869ff2f470b68.noblesville.instructure.comc79c53401f4e46c8de12b4226334baab21670742",
+          "name": "Michelle Gutknecht"
+        }
+      ],
+      "tags": [
+        "vocabulary"
+      ],
+      "sourceId": "/api/v1/courses/12932/content_exports?export_type=common_cartridge&select%5Bquizzes%5D%5B%5D=44872",
+      "thumbnail": {
+        "url": "https://farm3.staticflickr.com/2889/13263616953_b177a82642_z.jpg",
+        "description": "Vocabulary",
+        "attributionName": "Akshay Hallur",
+        "attributionUrl": "https://www.flickr.com/photos/79782201@N08/13263616953",
+        "licenseName": "Attribution-NoDerivs License",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nd/2.0/",
+        "height": 562,
+        "width": 521
+      },
+      "gradeIds": [
+        "5"
+      ],
+      "licenseIds": [
+        "copyright_reserve"
+      ],
+      "outcomes": [],
+      "count1StarRatings": 0,
+      "count2StarRatings": 0,
+      "count3StarRatings": 0,
+      "count4StarRatings": 0,
+      "count5StarRatings": 0,
+      "exportStatus": "complete",
+      "isPrivate": false,
+      "averageRating": 0,
+      "meta": {
+        "links": {
+          "self": "/api/resources/c98dc59b61b14a0684a0071d7394d364"
+        }
+      }
+    },
+    {
+      "id": "d690d95454df4ef5a72bdb09fa20ba61",
+      "title": "Term 3 -- Life's Greatest Miracle, pregnancy/childbirth and menstruation",
+      "description": "Pregnancy and childbirth",
+      "account": {
+        "id": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.com",
+        "name": "Free For Teachers"
+      },
+      "scopeIds": [
+        "PUBLIC"
+      ],
+      "type": "quiz",
+      "lang": "en",
+      "createDate": "2016-04-12T13:04:32.945Z",
+      "createUserId": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.com08ec905158845b15c0a557aed79e0f212298805b",
+      "updateDate": "2016-04-12T13:04:32.945Z",
+      "updateUserId": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.com08ec905158845b15c0a557aed79e0f212298805b",
+      "authors": [
+        {
+          "id": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.com08ec905158845b15c0a557aed79e0f212298805b",
+          "name": "Kathleen O'Neal"
+        }
+      ],
+      "tags": [
+        "Pregnancy and childbirth"
+      ],
+      "sourceId": "/api/v1/courses/985955/content_exports?export_type=common_cartridge&select%5Bquizzes%5D%5B%5D=1559354",
+      "thumbnail": {
+        "url": "https://farm6.staticflickr.com/5464/6897253332_77c819de69_z.jpg",
+        "description": "Mother's Love",
+        "attributionName": "Keoni Cabral",
+        "attributionUrl": "https://www.flickr.com/photos/52193570@N04/6897253332",
+        "licenseName": "Attribution License",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "height": 427,
+        "width": 640
+      },
+      "gradeIds": [
+        "10",
+        "11",
+        "12"
+      ],
+      "licenseIds": [
+        "copyright_reserve"
+      ],
+      "outcomes": [],
+      "count1StarRatings": 0,
+      "count2StarRatings": 0,
+      "count3StarRatings": 0,
+      "count4StarRatings": 0,
+      "count5StarRatings": 0,
+      "exportStatus": "complete",
+      "isPrivate": false,
+      "averageRating": 0,
+      "meta": {
+        "links": {
+          "self": "/api/resources/d690d95454df4ef5a72bdb09fa20ba61"
+        }
+      }
+    },
+    {
+      "id": "e266582d33674dbbb43daf2e4be3b51c",
+      "title": "Topic 10: The Renaissance and Reformation",
+      "description": "Assessment for the Renaissance and Protestant Reformation",
+      "account": {
+        "id": "jg6ltnhZPGDnFoHHbRFoHqTiLBUZc9u441HWtZd5:canvas-lms",
+        "name": "Beech Grove City Schools"
+      },
+      "scopeIds": [
+        "PUBLIC"
+      ],
+      "type": "quiz",
+      "lang": "en",
+      "createDate": "2016-04-05T19:02:35.141Z",
+      "createUserId": "jg6ltnhZPGDnFoHHbRFoHqTiLBUZc9u441HWtZd5:canvas-lms573ebcfd04caafce55bed68479719d7c9bbb5734",
+      "updateDate": "2016-04-05T19:02:35.141Z",
+      "updateUserId": "jg6ltnhZPGDnFoHHbRFoHqTiLBUZc9u441HWtZd5:canvas-lms573ebcfd04caafce55bed68479719d7c9bbb5734",
+      "authors": [
+        {
+          "id": "jg6ltnhZPGDnFoHHbRFoHqTiLBUZc9u441HWtZd5:canvas-lms573ebcfd04caafce55bed68479719d7c9bbb5734",
+          "name": "Erin Barker"
+        }
+      ],
+      "tags": [
+        "Catholic Counter-Reformation",
+        "Protestant Reformation",
+        "Renaissance"
+      ],
+      "sourceId": "/api/v1/courses/1103/content_exports?export_type=common_cartridge&select%5Bquizzes%5D%5B%5D=5954",
+      "thumbnail": {
+        "url": "https://farm4.staticflickr.com/3639/3559622373_6b5b2e431e_z.jpg",
+        "description": "\"The Creation of Adam\"",
+        "attributionName": "kevingessner",
+        "attributionUrl": "https://www.flickr.com/photos/26681198@N06/3559622373",
+        "licenseName": "Attribution License",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "height": 284,
+        "width": 640
+      },
+      "gradeIds": [
+        "10",
+        "11",
+        "12",
+        "9"
+      ],
+      "licenseIds": [
+        "public_domain"
+      ],
+      "outcomes": [],
+      "count1StarRatings": 0,
+      "count2StarRatings": 0,
+      "count3StarRatings": 0,
+      "count4StarRatings": 0,
+      "count5StarRatings": 0,
+      "exportStatus": "complete",
+      "isPrivate": false,
+      "averageRating": 0,
+      "meta": {
+        "links": {
+          "self": "/api/resources/e266582d33674dbbb43daf2e4be3b51c"
+        }
+      }
+    },
+    {
+      "id": "fb7443cfd5824a999abb311eb7c12d89",
+      "title": "Family Fitness Run - Shirt Design",
+      "description": "rfer",
+      "account": {
+        "id": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.com",
+        "name": "Free For Teachers"
+      },
+      "scopeIds": [
+        "PUBLIC"
+      ],
+      "type": "assignment",
+      "lang": "en",
+      "createDate": "2016-02-26T13:19:33.961Z",
+      "createUserId": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.comed91474ac2e3c6be05121243c252159114b61574",
+      "updateDate": "2016-02-26T13:19:33.961Z",
+      "updateUserId": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.comed91474ac2e3c6be05121243c252159114b61574",
+      "authors": [
+        {
+          "id": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.comed91474ac2e3c6be05121243c252159114b61574",
+          "name": "Brian Mathien"
+        }
+      ],
+      "tags": [
+        "sdfds"
+      ],
+      "sourceId": "/api/v1/courses/994409/content_exports?export_type=common_cartridge&select%5Bmodule_items%5D%5B%5D=8692174",
+      "thumbnail": {
+        "url": "https://farm3.staticflickr.com/2869/13900984203_d76ec91726_z.jpg",
+        "description": "SDFD On the Scene",
+        "attributionName": "Kit Corry",
+        "attributionUrl": "https://www.flickr.com/photos/93085774@N04/13900984203",
+        "licenseName": "Attribution License",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "height": 427,
+        "width": 640
+      },
+      "gradeIds": [
+        "1",
+        "10",
+        "11",
+        "12",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "G",
+        "HE",
+        "K"
+      ],
+      "licenseIds": [
+        "copyright_reserve"
+      ],
+      "outcomes": [],
+      "count1StarRatings": 0,
+      "count2StarRatings": 0,
+      "count3StarRatings": 0,
+      "count4StarRatings": 0,
+      "count5StarRatings": 0,
+      "exportStatus": "complete",
+      "isPrivate": false,
+      "averageRating": 0,
+      "meta": {
+        "links": {
+          "self": "/api/resources/fb7443cfd5824a999abb311eb7c12d89"
+        }
+      }
+    },
+    {
+      "id": "ca893672315a410893db9ada6b0c8b0c",
+      "title": "IT Fundamentals Chapter 8 Quick Quiz",
+      "description": "IT Fundamentals Chapter   Quiz",
+      "account": {
+        "id": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.com",
+        "name": "Free For Teachers"
+      },
+      "scopeIds": [
+        "PUBLIC"
+      ],
+      "type": "quiz",
+      "lang": "en",
+      "createDate": "2016-03-24T16:16:37.067Z",
+      "createUserId": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.combbc2cc4e2a072fb3f35b76d9b108e17736e4cf70",
+      "updateDate": "2016-03-24T16:16:37.067Z",
+      "updateUserId": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.combbc2cc4e2a072fb3f35b76d9b108e17736e4cf70",
+      "authors": [
+        {
+          "id": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.combbc2cc4e2a072fb3f35b76d9b108e17736e4cf70",
+          "name": "Alex  McKinstry"
+        }
+      ],
+      "tags": [
+        "McKinstry IT Fundamentals Chapter  8 Quiz"
+      ],
+      "sourceId": "/api/v1/courses/988966/content_exports?export_type=common_cartridge&select%5Bquizzes%5D%5B%5D=1542760",
+      "thumbnail": {
+        "url": "https://lor-images.s3.amazonaws.com/thumbnails/uploads/62209ed8fd944e65897e7c19bc153df7.jpg",
+        "description": "Uploaded Thumbnail"
+      },
+      "gradeIds": [
+        "1",
+        "10",
+        "11",
+        "12",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "G",
+        "HE",
+        "K"
+      ],
+      "licenseIds": [
+        "copyright_reserve"
+      ],
+      "outcomes": [],
+      "count1StarRatings": 0,
+      "count2StarRatings": 0,
+      "count3StarRatings": 0,
+      "count4StarRatings": 0,
+      "count5StarRatings": 0,
+      "exportStatus": "complete",
+      "isPrivate": false,
+      "averageRating": 0,
+      "meta": {
+        "links": {
+          "self": "/api/resources/ca893672315a410893db9ada6b0c8b0c"
+        }
+      }
+    },
+    {
+      "id": "63c9d4696e6f498ab805db8054173b66",
+      "title": "TOEFL Practice # 10: Independent and Integrated Speaking",
+      "description": "TOEFL Practice # 10: Independent and Integrated Speaking",
+      "account": {
+        "id": "fx35tWNBdvRNpY5TnRBWXilCKnClYH1gmwiN4Ldb:canvas-lms",
+        "name": "BYU - ELC"
+      },
+      "scopeIds": [
+        "PUBLIC"
+      ],
+      "type": "quiz",
+      "lang": "en",
+      "createDate": "2016-04-13T05:19:25.509Z",
+      "createUserId": "fx35tWNBdvRNpY5TnRBWXilCKnClYH1gmwiN4Ldb:canvas-lms7039c356a86e24a670f17b62f8535d5867f5eb48",
+      "updateDate": "2016-04-13T05:19:25.509Z",
+      "updateUserId": "fx35tWNBdvRNpY5TnRBWXilCKnClYH1gmwiN4Ldb:canvas-lms7039c356a86e24a670f17b62f8535d5867f5eb48",
+      "authors": [
+        {
+          "id": "fx35tWNBdvRNpY5TnRBWXilCKnClYH1gmwiN4Ldb:canvas-lms7039c356a86e24a670f17b62f8535d5867f5eb48",
+          "name": "Mr. Fesenko"
+        }
+      ],
+      "tags": [
+        "TOEFL Practice # 10: Independent and Integrated Speaking"
+      ],
+      "sourceId": "/api/v1/courses/400/content_exports?export_type=common_cartridge&select%5Bquizzes%5D%5B%5D=4729",
+      "thumbnail": {
+        "url": "https://farm5.staticflickr.com/4147/5000847112_889923460e_z.jpg",
+        "description": "TOEFL by Kaplan",
+        "attributionName": "pshegubj",
+        "attributionUrl": "https://www.flickr.com/photos/35369853@N05/5000847112",
+        "licenseName": "Attribution-NoDerivs License",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nd/2.0/",
+        "height": 640,
+        "width": 524
+      },
+      "gradeIds": [
+        "1",
+        "10",
+        "11",
+        "12",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "G",
+        "HE",
+        "K"
+      ],
+      "licenseIds": [
+        "copyright_reserve"
+      ],
+      "outcomes": [],
+      "count1StarRatings": 0,
+      "count2StarRatings": 0,
+      "count3StarRatings": 0,
+      "count4StarRatings": 0,
+      "count5StarRatings": 0,
+      "exportStatus": "complete",
+      "isPrivate": false,
+      "averageRating": 0,
+      "meta": {
+        "links": {
+          "self": "/api/resources/63c9d4696e6f498ab805db8054173b66"
+        }
+      }
+    },
+    {
+      "id": "f9ea94276c9e4b88983efdbaf69f5cac",
+      "title": "Frankenstein Quiz 7&8",
+      "description": "Frankenstein Quiz",
+      "account": {
+        "id": "uSiDVD54QNvHQM7qLpWBqIXPPfYV104Htkz6hfzi:canvas-lms",
+        "name": "Alleghany County Schools"
+      },
+      "scopeIds": [
+        "PUBLIC"
+      ],
+      "type": "quiz",
+      "lang": "en",
+      "createDate": "2016-03-24T14:02:20.178Z",
+      "createUserId": "uSiDVD54QNvHQM7qLpWBqIXPPfYV104Htkz6hfzi:canvas-lms64cfff8ba9f5496ecac9d659a71a39a11b7f8c83",
+      "updateDate": "2016-03-24T14:02:20.178Z",
+      "updateUserId": "uSiDVD54QNvHQM7qLpWBqIXPPfYV104Htkz6hfzi:canvas-lms64cfff8ba9f5496ecac9d659a71a39a11b7f8c83",
+      "authors": [
+        {
+          "id": "uSiDVD54QNvHQM7qLpWBqIXPPfYV104Htkz6hfzi:canvas-lms64cfff8ba9f5496ecac9d659a71a39a11b7f8c83",
+          "name": "Lucas Pasley"
+        }
+      ],
+      "tags": [
+        "Frankenstein"
+      ],
+      "sourceId": "/api/v1/courses/1033/content_exports?export_type=common_cartridge&select%5Bquizzes%5D%5B%5D=974",
+      "thumbnail": {
+        "url": "https://farm3.staticflickr.com/2109/1538944466_06c0e3fb22_z.jpg?zz=1",
+        "description": "Frankenstein",
+        "attributionName": "twm1340",
+        "attributionUrl": "https://www.flickr.com/photos/89093669@N00/1538944466",
+        "licenseName": "Attribution-ShareAlike License",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "height": 640,
+        "width": 469
+      },
+      "gradeIds": [
+        "1",
+        "10",
+        "11",
+        "12",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "G",
+        "HE",
+        "K"
+      ],
+      "licenseIds": [
+        "copyright_reserve"
+      ],
+      "outcomes": [],
+      "count1StarRatings": 0,
+      "count2StarRatings": 0,
+      "count3StarRatings": 0,
+      "count4StarRatings": 0,
+      "count5StarRatings": 0,
+      "exportStatus": "complete",
+      "isPrivate": false,
+      "averageRating": 0,
+      "meta": {
+        "links": {
+          "self": "/api/resources/f9ea94276c9e4b88983efdbaf69f5cac"
+        }
+      }
+    },
+    {
+      "id": "53bf19eb8d3b41e38da0ae5fbbf729be",
+      "title": "Tools ID Test",
+      "description": " Burdett",
+      "account": {
+        "id": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.com",
+        "name": "Free For Teachers"
+      },
+      "scopeIds": [
+        "PUBLIC"
+      ],
+      "type": "quiz",
+      "lang": "en",
+      "createDate": "2015-11-06T20:58:40.214Z",
+      "createUserId": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.com3344a1e75a23bceed1741b5b5bdeceada7383a65",
+      "updateDate": "2015-11-06T20:58:40.214Z",
+      "updateUserId": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.com3344a1e75a23bceed1741b5b5bdeceada7383a65",
+      "authors": [
+        {
+          "id": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.com3344a1e75a23bceed1741b5b5bdeceada7383a65",
+          "name": "Cody Burdett",
+          "avatarUrl": "https://secure.gravatar.com/avatar/5644a7cf5dcce2a60279e7c800fdc1c1?s=50&d=https%3A%2F%2Fcanvas.instructure.com%2Fimages%2Fmessages%2Favatar-50.png"
+        }
+      ],
+      "tags": [
+        "woodshop"
+      ],
+      "sourceId": "/api/v1/courses/771229/content_exports?export_type=common_cartridge&select%5Bquizzes%5D%5B%5D=1413518",
+      "thumbnail": {
+        "url": "http://lor-images.s3.amazonaws.com/subjects/english-language-arts/English-03-262x147.jpg",
+        "description": "Antique brass door lock key"
+      },
+      "gradeIds": [
+        "10",
+        "11",
+        "12"
+      ],
+      "licenseIds": [
+        "public_domain"
+      ],
+      "outcomes": [],
+      "count1StarRatings": 0,
+      "count2StarRatings": 0,
+      "count3StarRatings": 0,
+      "count4StarRatings": 0,
+      "count5StarRatings": 0,
+      "exportStatus": "complete",
+      "isPrivate": false,
+      "averageRating": 0,
+      "meta": {
+        "links": {
+          "self": "/api/resources/53bf19eb8d3b41e38da0ae5fbbf729be"
+        }
+      }
+    },
+    {
+      "id": "e911879a14b74f918e61d5ff44307253",
+      "title": "Early Semester Evaluation",
+      "description": "An extremely simple course evaluation, to be used early in the term.",
+      "account": {
+        "id": "8e644da60980167f700f1470a108f0ef5762598d.westminster.instructure.com",
+        "name": "Westminster College"
+      },
+      "scopeIds": [
+        "PUBLIC"
+      ],
+      "type": "quiz",
+      "lang": "en",
+      "createDate": "2016-01-23T17:42:24.484Z",
+      "createUserId": "8e644da60980167f700f1470a108f0ef5762598d.westminster.instructure.com28397260bd223e26139d7ae8de3693d06d1e8fc5",
+      "updateDate": "2016-01-23T17:42:24.484Z",
+      "updateUserId": "8e644da60980167f700f1470a108f0ef5762598d.westminster.instructure.com28397260bd223e26139d7ae8de3693d06d1e8fc5",
+      "authors": [
+        {
+          "id": "8e644da60980167f700f1470a108f0ef5762598d.westminster.instructure.com28397260bd223e26139d7ae8de3693d06d1e8fc5",
+          "name": "Sean Desilets"
+        }
+      ],
+      "tags": [
+        "evaluation_resources"
+      ],
+      "sourceId": "/api/v1/courses/1764272/content_exports?export_type=common_cartridge&select%5Bquizzes%5D%5B%5D=3169190",
+      "thumbnail": {
+        "url": "https://farm5.staticflickr.com/4145/4978640609_abb39dff3f_z.jpg",
+        "description": "Early 4hp (550cc) Triumph Model H motorcycle - 1920s? Possibly Hull.",
+        "attributionName": "whatsthatpicture",
+        "attributionUrl": "https://www.flickr.com/photos/24469639@N00/4978640609",
+        "licenseName": "Public Domain Mark",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "height": 640,
+        "width": 488
+      },
+      "gradeIds": [
+        "HE"
+      ],
+      "licenseIds": [
+        "copyright_reserve"
+      ],
+      "outcomes": [],
+      "count1StarRatings": 0,
+      "count2StarRatings": 0,
+      "count3StarRatings": 0,
+      "count4StarRatings": 0,
+      "count5StarRatings": 0,
+      "exportStatus": "complete",
+      "isPrivate": false,
+      "averageRating": 0,
+      "meta": {
+        "links": {
+          "self": "/api/resources/e911879a14b74f918e61d5ff44307253"
+        }
+      }
+    },
+    {
+      "id": "655b934f889643cfb0553c12da5f87f0",
+      "title": "Gamemaker Quiz",
+      "description": "gamemaker quiz",
+      "account": {
+        "id": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.com",
+        "name": "Free For Teachers"
+      },
+      "scopeIds": [
+        "PUBLIC"
+      ],
+      "type": "quiz",
+      "lang": "en",
+      "createDate": "2015-10-23T17:43:44.548Z",
+      "createUserId": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.com8095a542b885a96a6e4d7df6a7c02b03eb0b265e",
+      "updateDate": "2015-10-23T17:43:44.548Z",
+      "updateUserId": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.com8095a542b885a96a6e4d7df6a7c02b03eb0b265e",
+      "authors": [
+        {
+          "id": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.com8095a542b885a96a6e4d7df6a7c02b03eb0b265e",
+          "name": "Patrick Doty",
+          "avatarUrl": "https://secure.gravatar.com/avatar/654cab76510fb178e9270ba7c9473766?s=50&d=https%3A%2F%2Fcanvas.instructure.com%2Fimages%2Fmessages%2Favatar-50.png"
+        }
+      ],
+      "tags": [
+        "gamemaker"
+      ],
+      "sourceId": "/api/v1/courses/958906/content_exports?export_type=common_cartridge&select%5Bquizzes%5D%5B%5D=1399305",
+      "thumbnail": {
+        "url": "http://lor-images.s3.amazonaws.com/subjects/english-language-arts/English-02-262x147.jpg",
+        "description": "Shakespeare monument"
+      },
+      "gradeIds": [
+        "10",
+        "12",
+        "7",
+        "8",
+        "9"
+      ],
+      "licenseIds": [
+        "copyright_reserve"
+      ],
+      "outcomes": [],
+      "count1StarRatings": 0,
+      "count2StarRatings": 0,
+      "count3StarRatings": 0,
+      "count4StarRatings": 0,
+      "count5StarRatings": 0,
+      "exportStatus": "complete",
+      "isPrivate": false,
+      "averageRating": 0,
+      "meta": {
+        "links": {
+          "self": "/api/resources/655b934f889643cfb0553c12da5f87f0"
+        }
+      }
+    },
+    {
+      "id": "bd49869f0ec64567964569d0ff3f8b5f",
+      "title": "Hero's Journey ",
+      "description": "Quiz over the hero's journey ",
+      "account": {
+        "id": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.com",
+        "name": "Free For Teachers"
+      },
+      "scopeIds": [
+        "PUBLIC"
+      ],
+      "type": "quiz",
+      "lang": "en",
+      "createDate": "2016-04-25T14:34:17.902Z",
+      "createUserId": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.come20d0af171bbe5da2921017dee0ea2cb4626067f",
+      "updateDate": "2016-04-25T14:34:17.902Z",
+      "updateUserId": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.come20d0af171bbe5da2921017dee0ea2cb4626067f",
+      "authors": [
+        {
+          "id": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.come20d0af171bbe5da2921017dee0ea2cb4626067f",
+          "name": "Jonathan Pulliam"
+        }
+      ],
+      "tags": [
+        "Community Review"
+      ],
+      "sourceId": "/api/v1/courses/962091/content_exports?export_type=common_cartridge&select%5Bquizzes%5D%5B%5D=1568180",
+      "thumbnail": {
+        "url": "https://farm7.staticflickr.com/6111/6345300368_7b75a38c65_z.jpg",
+        "description": "Hero's quest",
+        "attributionName": "SteffeAndersson",
+        "attributionUrl": "https://www.flickr.com/photos/69478195@N06/6345300368",
+        "licenseName": "Attribution-NoDerivs License",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nd/2.0/",
+        "height": 453,
+        "width": 640
+      },
+      "gradeIds": [
+        "10",
+        "11",
+        "12",
+        "9",
+        "G",
+        "HE"
+      ],
+      "licenseIds": [
+        "copyright_reserve"
+      ],
+      "outcomes": [],
+      "count1StarRatings": 0,
+      "count2StarRatings": 0,
+      "count3StarRatings": 0,
+      "count4StarRatings": 0,
+      "count5StarRatings": 0,
+      "exportStatus": "complete",
+      "isPrivate": false,
+      "averageRating": 0,
+      "meta": {
+        "links": {
+          "self": "/api/resources/bd49869f0ec64567964569d0ff3f8b5f"
+        }
+      }
+    }
+  ],
+  "meta": {
+    "count": 16759,
+    "cursor": "48"
+  }
+}

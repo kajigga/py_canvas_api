@@ -9,5 +9,7 @@ setup(
     install_requires=[
 				'requests'
     ],
+    test_suite='nose.collector',
+    tests_require=['nose', 'mock'],
 )
 
