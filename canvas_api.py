@@ -124,7 +124,7 @@ class Canvas(ResterAPI):
     try:
       res.json()
     except Exception as exc:
-      log.error('problem reading response: {} - status: {}'.format(self.current_path, res.status_code))
+      log.error('problem reading response: {} - status: {}'.format(current_path, res.status_code))
       yield []
 
     if type(res.json()) != list:
