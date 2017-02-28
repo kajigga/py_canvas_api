@@ -48,6 +48,18 @@ class ResterAPI(object):
     self.current_path = []
 
   def get(self, **kwargs):
+    '''
+    Make the api call, returning the Response object from the requests module.
+
+    >>> c = Canvas('someodmain.instructure.com', CANVAS_ACCESS_TOKEN=os.getenv('ACCESS_TOKEN'))
+    >>> user_987 = c.accounts('self').users(987).get()
+    >>> user_987.json()
+    {
+        'id':987,
+        etc...
+        }
+
+    '''
     path = '/'.join(self.current_path)
     json_res = self.req(path, params=kwargs)
     self.reset()
@@ -118,8 +130,15 @@ class Canvas(ResterAPI):
     return method(build_url, headers=headers, data=post_body, **kwargs)
 
 
-  def get_paginated(self, paginate=False, **kwargs):
+  def get_paginated(self, *args, **kwargs):
+    '''Requests all pages of a paginated result.
+
+    >>> c = Canvas('someodmain.instructure.com', CANVAS_ACCESS_TOKEN=os.getenv('ACCESS_TOKEN'))
+    >>> all_users = c.accounts('self').users.get_paginated()
+
+    '''
     current_path = self.current_path
+    log.info('current_path %s', '/'.join(current_path))
     res = self.get(**kwargs)
     try:
       res.json()
@@ -137,7 +156,7 @@ class Canvas(ResterAPI):
         for r in res.json():
           yield r
   
-  def get_upload_params(self, filepath, parent_folder_path=None, **kwargs):
+  def _get_upload_params(self, filepath, parent_folder_path=None, **kwargs):
 
     mime_type, encoding = mimetypes.guess_type(filepath)
 
@@ -166,20 +185,26 @@ class Canvas(ResterAPI):
     """This method will upload a file to canvas. It requires the initial
     response from a file upload endpoint and the filepath itself.
 
-    Known places where an upload starts
-    /api/v1/courses/:course_id/files
-    /api/v1/folders/:folder_id/files
-    /api/v1/groups/:group_id/files
-    /api/v1/users/:user_id/files
-    /api/v1/courses/:course_id/quizzes/:quiz_id/submissions/self/files
-    /api/v1/courses/:course_id/assignments/:assignment_id/submissions/self/files
-    /api/v1/courses/:course_id/assignments/:assignment_id/submissions/:user_id/comments/files
-    /api/v1/courses/:course_id/assignments/:assignment_id/submissions/:user_id/files
-    /api/v1/sections/:section_id/assignments/:assignment_id/submissions/:user_id/files
-    /api/v1/accounts/:account_id/content_migrations
-    /api/v1/courses/:course_id/content_migrations
-    /api/v1/groups/:group_id/content_migrations
-    /api/v1/users/:user_id/content_migrations
+
+    >>> c = Canvas('someodmain.instructure.com', CANVAS_ACCESS_TOKEN=os.getenv('ACCESS_TOKEN'))
+    >>> upload_started = c.courses(123423).files.post(file_upload_params)
+    >>> c.upload_file(upload_started, './requirements.txt') # When this is done, the file is uploaded
+
+    Known places where an upload starts:
+
+      * /api/v1/courses/:course_id/files
+      * /api/v1/folders/:folder_id/files
+      * /api/v1/groups/:group_id/files
+      * /api/v1/users/:user_id/files
+      * /api/v1/courses/:course_id/quizzes/:quiz_id/submissions/self/files
+      * /api/v1/courses/:course_id/assignments/:assignment_id/submissions/self/files
+      * /api/v1/courses/:course_id/assignments/:assignment_id/submissions/:user_id/comments/files
+      * /api/v1/courses/:course_id/assignments/:assignment_id/submissions/:user_id/files
+      * /api/v1/sections/:section_id/assignments/:assignment_id/submissions/:user_id/files
+      * /api/v1/accounts/:account_id/content_migrations
+      * /api/v1/courses/:course_id/content_migrations
+      * /api/v1/groups/:group_id/content_migrations
+      * /api/v1/users/:user_id/content_migrations
     """
 
     logging.info("Yes! Done sending pre-emptive 'here comes data' data, now uploading the file...")
@@ -223,7 +248,16 @@ class Commons(ResterAPI):
     elif http_method == 'DELETE':
       method = requests.delete
 
-    return method(build_url, headers=headers, data=post_body, **kwargs)
+    res = None
+    try:
+      res = method(build_url, headers=headers, data=post_body, **kwargs)
+    except Exception as exc:
+      log.error('{}'.format(exc))
+      # Canvas should be reset if an error occurs
+      self.reset()
+    return res
+
+      
 
   def req_session_id(self, data, **kwargs):
     build_url = self.base_url.format('sessions')
@@ -255,6 +289,6 @@ class Commons(ResterAPI):
 if __name__ == '__main__':
   c = Canvas('<domain_here>.instructure.com', CANVAS_ACCESS_TOKEN=os.getenv('CANVAS_ACCESS_TOKEN'))
   
-  upload_params = c.get_upload_params('./requirements.txt', parent_folder_path='testingfiles')
+  upload_params = c._get_upload_params('./requirements.txt', parent_folder_path='testingfiles')
   upload_started = c.courses('<course_id_here>').files.post(data=upload_params)
   c.upload_file(upload_started, './requirements.txt')

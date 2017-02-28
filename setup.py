@@ -1,9 +1,12 @@
 from setuptools import setup
 
 setup(
-    name='canvas_api',
+    name='py_canvas_api',
     version='0.1',
+    description = 'A very small library for accessing the API for the Canvas LMS.'
     py_modules=['canvas_api'], #find_packages(),
+    download_url = 'https://github.com/kajigga/py_canvas_api',
+    keywords = ['canvaslms', 'api'],
     #packages=['icutils'],
     include_package_data=True,
     install_requires=[
