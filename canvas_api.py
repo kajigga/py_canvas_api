@@ -101,7 +101,71 @@ class ResterAPI(object):
   def req(self, url, http_method="GET", post_body=None, http_headers={}, **kwargs):
     return NotImplemented
 
-class Canvas(ResterAPI):
+class Paginates(object):
+  def get_paginated(self, *args, **kwargs):
+    '''Requests all pages of a paginated result.
+
+    >>> c = Canvas('someodmain.instructure.com', CANVAS_ACCESS_TOKEN=os.getenv('ACCESS_TOKEN'))
+    >>> all_users = c.accounts('self').users.get_paginated()
+
+    '''
+    current_path = self.current_path
+    log.info('current_path %s', '/'.join(current_path))
+    res = self.get(**kwargs)
+    try:
+      res.json()
+    except Exception as exc:
+      log.error('problem reading response: {} - status: {}'.format(current_path, res.status_code))
+      yield []
+
+    for x in self.iter_list_or_dict(res.json(), kwargs.get('keyword')):
+      yield x
+
+    if 'next' in res.links:
+      while 'next' in res.links:
+        res = self.req(None, full_url=res.links['next']['url'])
+        for x in self.iter_list_or_dict(res.json(), kwargs.get('keyword')):
+          yield x
+  
+  def get_paginated_dict(self, keyword, *args, **kwargs):
+    '''Requests all pages of a paginated result.
+
+    >>> c = Canvas('someodmain.instructure.com', CANVAS_ACCESS_TOKEN=os.getenv('ACCESS_TOKEN'))
+    >>> all_users = c.accounts('self').users.get_paginated()
+
+    '''
+    current_path = self.current_path
+    log.info('current_path %s', '/'.join(current_path))
+    res = self.get(**kwargs)
+    try:
+      res.json()
+    except Exception as exc:
+      log.error('problem reading response: {} - status: {}'.format(current_path, res.status_code))
+      yield []
+
+    for x in self.iter_list_or_dict(res.json(), keyword):
+      yield x
+
+    if 'next' in res.links:
+      while 'next' in res.links:
+        res = self.req(None, full_url=res.links['next']['url'])
+        for x in self.iter_list_or_dict(res.json(), keyword):
+          yield x
+
+  def iter_list_or_dict(self, _list, keyword=None):
+      if type(_list) == list:
+        for r in _list:
+          yield r
+      else:
+        #print(_list)
+        if keyword:
+          for r in _list[keyword]:
+            yield r
+        else:
+          print(_list)
+          return None
+
+class Canvas(ResterAPI, Paginates):
 
   def __init__(self, base_url, *args, **kwargs):
     base_url += kwargs.get('prefix','/api/v1')
@@ -127,35 +191,11 @@ class Canvas(ResterAPI):
     elif http_method == 'DELETE':
       method = requests.delete
 
+    logging.debug('req kwargs %s', kwargs)
     return method(build_url, headers=headers, data=post_body, **kwargs)
 
 
-  def get_paginated(self, *args, **kwargs):
-    '''Requests all pages of a paginated result.
 
-    >>> c = Canvas('someodmain.instructure.com', CANVAS_ACCESS_TOKEN=os.getenv('ACCESS_TOKEN'))
-    >>> all_users = c.accounts('self').users.get_paginated()
-
-    '''
-    current_path = self.current_path
-    log.info('current_path %s', '/'.join(current_path))
-    res = self.get(**kwargs)
-    try:
-      res.json()
-    except Exception as exc:
-      log.error('problem reading response: {} - status: {}'.format(current_path, res.status_code))
-      yield []
-
-    if type(res.json()) != list:
-      yield res
-    else:
-      for r in res.json():
-        yield r
-      while 'next' in res.links:
-        res = self.req(None, full_url=res.links['next']['url'])
-        for r in res.json():
-          yield r
-  
   def _get_upload_params(self, filepath, parent_folder_path=None, **kwargs):
 
     mime_type, encoding = mimetypes.guess_type(filepath)
@@ -163,7 +203,8 @@ class Canvas(ResterAPI):
     filename = os.path.basename(filepath)
     inform_parameters = {
       'name': filename,
-      'size': os.path.getsize(filename), # read the filesize
+
+      'size': os.path.getsize(filepath), # read the filesize
       'content_type': mime_type,
       'parent_folder_path': parent_folder_path
        }
@@ -207,18 +248,51 @@ class Canvas(ResterAPI):
       * /api/v1/users/:user_id/content_migrations
     """
 
-    logging.info("Yes! Done sending pre-emptive 'here comes data' data, now uploading the file...")
     json_res = json.loads(res.text, object_pairs_hook=collections.OrderedDict)
 
     # Upload file
     # Upload confirmation is handled if you let the upload follow redirects
+    logging.info('-json_res- %s', json_res)
     upload_file_response = requests.post(
         json_res['upload_url'], 
         data=list( list(json_res.items())[1][1].items()), 
         files={'file':open(filepath,'rb')}, 
-        allow_redirects=True)
+        params=kwargs,
+        allow_redirects=True).json()
 
     logging.info("Upload completed...nicely done!")
+    logging.debug('upload response %s', upload_file_response)
+    return upload_file_response
+
+class Catalog(ResterAPI, Paginates):
+    
+  def __init__(self, base_url, *args, **kwargs):
+    base_url += kwargs.get('prefix','/api/v1')
+    super(Catalog, self).__init__(base_url, *args, **kwargs)
+
+  def req(self, url, http_method="GET", full_url=None, post_body=None, http_headers={}, **kwargs):
+    if not full_url:
+      build_url = self.base_url.format(url)
+    else:
+      build_url = full_url
+    headers = self.headers.copy()
+    
+    headers.update(http_headers)
+    headers['Authorization'] = 'Token token={}'.format(self.kwargs.get('CATALOG_ACCESS_TOKEN'))
+
+    # Default is GET
+    method = requests.get
+    if http_method == 'GET':
+      method = requests.get
+    elif http_method == 'POST':
+      method = requests.post
+    elif http_method == 'PUT':
+      method = requests.put
+    elif http_method == 'DELETE':
+      method = requests.delete
+
+    logging.debug('req kwargs %s', kwargs)
+    return method(build_url, headers=headers, data=post_body, **kwargs)
 
 class Commons(ResterAPI):
   def __init__(self, base_url, *args, **kwargs):
