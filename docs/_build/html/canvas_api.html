@@ -1,0 +1,281 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>canvas_api module &#8212; Python Canvas API Module 0.1 documentation</title>
+    
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="module-canvas_api">
+<span id="canvas-api-module"></span><h1>canvas_api module<a class="headerlink" href="#module-canvas_api" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="canvas_api.Canvas">
+<em class="property">class </em><code class="descclassname">canvas_api.</code><code class="descname">Canvas</code><span class="sig-paren">(</span><em>base_url</em>, <em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#canvas_api.Canvas" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#canvas_api.ResterAPI" title="canvas_api.ResterAPI"><code class="xref py py-class docutils literal"><span class="pre">canvas_api.ResterAPI</span></code></a>, <a class="reference internal" href="#canvas_api.Paginates" title="canvas_api.Paginates"><code class="xref py py-class docutils literal"><span class="pre">canvas_api.Paginates</span></code></a></p>
+<dl class="method">
+<dt id="canvas_api.Canvas.req">
+<code class="descname">req</code><span class="sig-paren">(</span><em>url</em>, <em>http_method='GET'</em>, <em>full_url=None</em>, <em>post_body=None</em>, <em>http_headers={}</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#canvas_api.Canvas.req" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="canvas_api.Canvas.upload_file">
+<code class="descname">upload_file</code><span class="sig-paren">(</span><em>res</em>, <em>filepath</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#canvas_api.Canvas.upload_file" title="Permalink to this definition">¶</a></dt>
+<dd><p>This method will upload a file to canvas. It requires the initial
+response from a file upload endpoint and the filepath itself.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">c</span> <span class="o">=</span> <span class="n">Canvas</span><span class="p">(</span><span class="s1">&#39;someodmain.instructure.com&#39;</span><span class="p">,</span> <span class="n">CANVAS_ACCESS_TOKEN</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s1">&#39;ACCESS_TOKEN&#39;</span><span class="p">))</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">upload_started</span> <span class="o">=</span> <span class="n">c</span><span class="o">.</span><span class="n">courses</span><span class="p">(</span><span class="mi">123423</span><span class="p">)</span><span class="o">.</span><span class="n">files</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="n">file_upload_params</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">c</span><span class="o">.</span><span class="n">upload_file</span><span class="p">(</span><span class="n">upload_started</span><span class="p">,</span> <span class="s1">&#39;./requirements.txt&#39;</span><span class="p">)</span> <span class="c1"># When this is done, the file is uploaded</span>
+</pre></div>
+</div>
+<p>Known places where an upload starts:</p>
+<blockquote>
+<div><ul class="simple">
+<li>/api/v1/courses/:course_id/files</li>
+<li>/api/v1/folders/:folder_id/files</li>
+<li>/api/v1/groups/:group_id/files</li>
+<li>/api/v1/users/:user_id/files</li>
+<li>/api/v1/courses/:course_id/quizzes/:quiz_id/submissions/self/files</li>
+<li>/api/v1/courses/:course_id/assignments/:assignment_id/submissions/self/files</li>
+<li>/api/v1/courses/:course_id/assignments/:assignment_id/submissions/:user_id/comments/files</li>
+<li>/api/v1/courses/:course_id/assignments/:assignment_id/submissions/:user_id/files</li>
+<li>/api/v1/sections/:section_id/assignments/:assignment_id/submissions/:user_id/files</li>
+<li>/api/v1/accounts/:account_id/content_migrations</li>
+<li>/api/v1/courses/:course_id/content_migrations</li>
+<li>/api/v1/groups/:group_id/content_migrations</li>
+<li>/api/v1/users/:user_id/content_migrations</li>
+</ul>
+</div></blockquote>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="canvas_api.Catalog">
+<em class="property">class </em><code class="descclassname">canvas_api.</code><code class="descname">Catalog</code><span class="sig-paren">(</span><em>base_url</em>, <em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#canvas_api.Catalog" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#canvas_api.ResterAPI" title="canvas_api.ResterAPI"><code class="xref py py-class docutils literal"><span class="pre">canvas_api.ResterAPI</span></code></a>, <a class="reference internal" href="#canvas_api.Paginates" title="canvas_api.Paginates"><code class="xref py py-class docutils literal"><span class="pre">canvas_api.Paginates</span></code></a></p>
+<dl class="method">
+<dt id="canvas_api.Catalog.req">
+<code class="descname">req</code><span class="sig-paren">(</span><em>url</em>, <em>http_method='GET'</em>, <em>full_url=None</em>, <em>post_body=None</em>, <em>http_headers={}</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#canvas_api.Catalog.req" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="canvas_api.Commons">
+<em class="property">class </em><code class="descclassname">canvas_api.</code><code class="descname">Commons</code><span class="sig-paren">(</span><em>base_url</em>, <em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#canvas_api.Commons" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#canvas_api.ResterAPI" title="canvas_api.ResterAPI"><code class="xref py py-class docutils literal"><span class="pre">canvas_api.ResterAPI</span></code></a></p>
+<dl class="method">
+<dt id="canvas_api.Commons.get_jwt_token">
+<code class="descname">get_jwt_token</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#canvas_api.Commons.get_jwt_token" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="canvas_api.Commons.get_session_id">
+<code class="descname">get_session_id</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#canvas_api.Commons.get_session_id" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="canvas_api.Commons.req">
+<code class="descname">req</code><span class="sig-paren">(</span><em>url</em>, <em>http_method='GET'</em>, <em>full_url=None</em>, <em>post_body=None</em>, <em>http_headers={}</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#canvas_api.Commons.req" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="canvas_api.Commons.req_session_id">
+<code class="descname">req_session_id</code><span class="sig-paren">(</span><em>data</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#canvas_api.Commons.req_session_id" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="canvas_api.Paginates">
+<em class="property">class </em><code class="descclassname">canvas_api.</code><code class="descname">Paginates</code><a class="headerlink" href="#canvas_api.Paginates" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="canvas_api.Paginates.get_paginated">
+<code class="descname">get_paginated</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#canvas_api.Paginates.get_paginated" title="Permalink to this definition">¶</a></dt>
+<dd><p>Requests all pages of a paginated result.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">c</span> <span class="o">=</span> <span class="n">Canvas</span><span class="p">(</span><span class="s1">&#39;someodmain.instructure.com&#39;</span><span class="p">,</span> <span class="n">CANVAS_ACCESS_TOKEN</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s1">&#39;ACCESS_TOKEN&#39;</span><span class="p">))</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">all_users</span> <span class="o">=</span> <span class="n">c</span><span class="o">.</span><span class="n">accounts</span><span class="p">(</span><span class="s1">&#39;self&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">users</span><span class="o">.</span><span class="n">get_paginated</span><span class="p">()</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="canvas_api.Paginates.get_paginated_dict">
+<code class="descname">get_paginated_dict</code><span class="sig-paren">(</span><em>keyword</em>, <em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#canvas_api.Paginates.get_paginated_dict" title="Permalink to this definition">¶</a></dt>
+<dd><p>Requests all pages of a paginated result.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">c</span> <span class="o">=</span> <span class="n">Canvas</span><span class="p">(</span><span class="s1">&#39;someodmain.instructure.com&#39;</span><span class="p">,</span> <span class="n">CANVAS_ACCESS_TOKEN</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s1">&#39;ACCESS_TOKEN&#39;</span><span class="p">))</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">all_users</span> <span class="o">=</span> <span class="n">c</span><span class="o">.</span><span class="n">accounts</span><span class="p">(</span><span class="s1">&#39;self&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">users</span><span class="o">.</span><span class="n">get_paginated</span><span class="p">()</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="canvas_api.Paginates.iter_list_or_dict">
+<code class="descname">iter_list_or_dict</code><span class="sig-paren">(</span><em>_list</em>, <em>keyword=None</em><span class="sig-paren">)</span><a class="headerlink" href="#canvas_api.Paginates.iter_list_or_dict" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="canvas_api.ResterAPI">
+<em class="property">class </em><code class="descclassname">canvas_api.</code><code class="descname">ResterAPI</code><span class="sig-paren">(</span><em>base_url</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#canvas_api.ResterAPI" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="canvas_api.ResterAPI.delete">
+<code class="descname">delete</code><span class="sig-paren">(</span><em>body={}</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#canvas_api.ResterAPI.delete" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="canvas_api.ResterAPI.get">
+<code class="descname">get</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#canvas_api.ResterAPI.get" title="Permalink to this definition">¶</a></dt>
+<dd><p>Make the api call, returning the Response object from the requests module.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">c</span> <span class="o">=</span> <span class="n">Canvas</span><span class="p">(</span><span class="s1">&#39;someodmain.instructure.com&#39;</span><span class="p">,</span> <span class="n">CANVAS_ACCESS_TOKEN</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s1">&#39;ACCESS_TOKEN&#39;</span><span class="p">))</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">user_987</span> <span class="o">=</span> <span class="n">c</span><span class="o">.</span><span class="n">accounts</span><span class="p">(</span><span class="s1">&#39;self&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">users</span><span class="p">(</span><span class="mi">987</span><span class="p">)</span><span class="o">.</span><span class="n">get</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">user_987</span><span class="o">.</span><span class="n">json</span><span class="p">()</span>
+<span class="go">{</span>
+<span class="go">    &#39;id&#39;:987,</span>
+<span class="go">    etc...</span>
+<span class="go">    }</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="canvas_api.ResterAPI.post">
+<code class="descname">post</code><span class="sig-paren">(</span><em>data={}</em>, <em>do_json=True</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#canvas_api.ResterAPI.post" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="canvas_api.ResterAPI.put">
+<code class="descname">put</code><span class="sig-paren">(</span><em>data</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#canvas_api.ResterAPI.put" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="canvas_api.ResterAPI.req">
+<code class="descname">req</code><span class="sig-paren">(</span><em>url</em>, <em>http_method='GET'</em>, <em>post_body=None</em>, <em>http_headers={}</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#canvas_api.ResterAPI.req" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="canvas_api.ResterAPI.reset">
+<code class="descname">reset</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#canvas_api.ResterAPI.reset" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="canvas_api.SISImporter">
+<em class="property">class </em><code class="descclassname">canvas_api.</code><code class="descname">SISImporter</code><span class="sig-paren">(</span><em>canvas_domain</em>, <em>canvas_token</em><span class="sig-paren">)</span><a class="headerlink" href="#canvas_api.SISImporter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="canvas_api.SISImporter.check_sis_import">
+<code class="descname">check_sis_import</code><span class="sig-paren">(</span><em>import_id</em><span class="sig-paren">)</span><a class="headerlink" href="#canvas_api.SISImporter.check_sis_import" title="Permalink to this definition">¶</a></dt>
+<dd><p>Check the sis_import given by <cite>import_id</cite></p>
+</dd></dl>
+
+<dl class="method">
+<dt id="canvas_api.SISImporter.do_sis_import">
+<code class="descname">do_sis_import</code><span class="sig-paren">(</span><em>filepath</em>, <em>import_type='instructure_csv'</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#canvas_api.SISImporter.do_sis_import" title="Permalink to this definition">¶</a></dt>
+<dd><p>Do an SIS Import with the given file. A variety of options can be
+given.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">sis_importer</span> <span class="o">=</span> <span class="n">SISImporter</span><span class="p">(</span><span class="s1">&#39;test.instructure.com&#39;</span><span class="p">,</span> <span class="n">CANVAS_ACCESS_TOKEN</span><span class="o">=</span><span class="n">token</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">sis_importer</span><span class="o">.</span><span class="n">do_sis_import</span><span class="p">(</span><span class="s1">&#39;./test.csv&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="canvas_api.SISImporter.wait_for_done">
+<code class="descname">wait_for_done</code><span class="sig-paren">(</span><em>import_id=None</em><span class="sig-paren">)</span><a class="headerlink" href="#canvas_api.SISImporter.wait_for_done" title="Permalink to this definition">¶</a></dt>
+<dd><p>Wait for the given import_id to be done, then return the import</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/canvas_api.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017, Kajigga Dev.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.5.3</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.9</a>
+      
+      |
+      <a href="_sources/canvas_api.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

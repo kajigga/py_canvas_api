@@ -43,24 +43,45 @@
             
   <div class="section" id="welcome-to-python-canvas-api-module-s-documentation">
 <h1>Welcome to Python Canvas API Module&#8217;s documentation!<a class="headerlink" href="#welcome-to-python-canvas-api-module-s-documentation" title="Permalink to this headline">¶</a></h1>
-<div class="toctree-wrapper compound">
 </div>
-<span class="target" id="module-canvas_api"></span><dl class="class">
-<dt id="canvas_api.Canvas">
-<em class="property">class </em><code class="descclassname">canvas_api.</code><code class="descname">Canvas</code><span class="sig-paren">(</span><em>base_url</em>, <em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#canvas_api.Canvas" title="Permalink to this definition">¶</a></dt>
-<dd><dl class="method">
-<dt id="canvas_api.Canvas.get_paginated">
-<code class="descname">get_paginated</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#canvas_api.Canvas.get_paginated" title="Permalink to this definition">¶</a></dt>
-<dd><p>Requests all pages of a paginated result.</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">c</span> <span class="o">=</span> <span class="n">Canvas</span><span class="p">(</span><span class="s1">&#39;someodmain.instructure.com&#39;</span><span class="p">,</span> <span class="n">CANVAS_ACCESS_TOKEN</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s1">&#39;ACCESS_TOKEN&#39;</span><span class="p">))</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">all_users</span> <span class="o">=</span> <span class="n">c</span><span class="o">.</span><span class="n">accounts</span><span class="p">(</span><span class="s1">&#39;self&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">users</span><span class="o">.</span><span class="n">get_paginated</span><span class="p">()</span>
+<div class="section" id="py-canvas-api">
+<h1>py_canvas_api<a class="headerlink" href="#py-canvas-api" title="Permalink to this headline">¶</a></h1>
+<p>The idea is to have a simple, easy to understand library for the Canvas API.</p>
+<p>The Canvas API (<a class="reference external" href="https://canvas.instructure.com/doc/api/index.html">https://canvas.instructure.com/doc/api/index.html</a>) has hundreds of endpoints.
+It seemed pointless to me to write a unique method for every one of them.
+Instead, I created a class, called <cite>ResterAPI</cite> that uses <cite>__getattr__</cite> to
+dynamically generate the URLS for an endpoint and <cite>__call__</cite> to make the actual
+request. The <cite>Canvas</cite> class is built on top of <cite>ResterAPI</cite>.</p>
+<p>The result is a fairly small library that can handle the vast majority of
+Canvas API endpoints. There are a few unique cases that are addressed in special
+classes. For example, the <a class="reference external" href="https://canvas.instructure.com/doc/api/sis_imports.html">SIS Import API</a> takes a file upload and needs
+special handling.</p>
+<p>Here is how to do an SIS Import.</p>
+<div class="highlight-py"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">canvas_api</span> <span class="kn">import</span> <span class="n">SISImporter</span>
+<span class="n">sis_importer</span> <span class="o">=</span> <span class="n">SISImporter</span><span class="p">(</span><span class="s1">&#39;somedomain.instructure.com&#39;</span><span class="p">,</span> <span class="n">CANVAS_ACCESS_TOKEN</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s1">&#39;ACCESS_TOKEN&#39;</span><span class="p">))</span>
+<span class="n">sis_importer</span><span class="o">.</span><span class="n">do_sis_import</span><span class="p">(</span><span class="n">filepath</span><span class="p">)</span>
 </pre></div>
 </div>
-</dd></dl>
+<p>Instantiate the Canvas object like this.</p>
+<div class="highlight-py"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">canvas_api</span> <span class="kn">import</span> <span class="n">Canvas</span>
+<span class="n">c</span> <span class="o">=</span> <span class="n">Canvas</span><span class="p">(</span><span class="s1">&#39;somedomain.instructure.com&#39;</span><span class="p">,</span> <span class="n">CANVAS_ACCESS_TOKEN</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s1">&#39;ACCESS_TOKEN&#39;</span><span class="p">))</span>
+<span class="c1"># get a list of courses (paginated to 10) in the account</span>
+<span class="n">accounts</span> <span class="o">=</span> <span class="n">c</span><span class="o">.</span><span class="n">accounts</span><span class="p">(</span><span class="s1">&#39;self&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">courses</span><span class="o">.</span><span class="n">get</span><span class="p">()</span>
 
-<dl class="method">
-<dt id="canvas_api.Canvas.upload_file">
-<code class="descname">upload_file</code><span class="sig-paren">(</span><em>res</em>, <em>filepath</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#canvas_api.Canvas.upload_file" title="Permalink to this definition">¶</a></dt>
+<span class="c1"># Get a list of all courses in the account. This will keep pulling results as</span>
+<span class="c1"># long as there are more pages. It uses generator functions to do this is a</span>
+<span class="c1"># smart way.</span>
+<span class="n">accounts</span> <span class="o">=</span> <span class="n">c</span><span class="o">.</span><span class="n">accounts</span><span class="p">(</span><span class="s1">&#39;self&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">course</span><span class="o">.</span><span class="n">get_paginated</span><span class="p">()</span>
+</pre></div>
+</div>
+<div class="toctree-wrapper compound">
+</div>
+<dl class="class">
+<dt>
+<em class="property">class </em><code class="descclassname">canvas_api.</code><code class="descname">Canvas</code><span class="sig-paren">(</span><em>base_url</em>, <em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span></dt>
+<dd><dl class="method">
+<dt>
+<code class="descname">upload_file</code><span class="sig-paren">(</span><em>res</em>, <em>filepath</em>, <em>**kwargs</em><span class="sig-paren">)</span></dt>
 <dd><p>This method will upload a file to canvas. It requires the initial
 response from a file upload endpoint and the filepath itself.</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">c</span> <span class="o">=</span> <span class="n">Canvas</span><span class="p">(</span><span class="s1">&#39;someodmain.instructure.com&#39;</span><span class="p">,</span> <span class="n">CANVAS_ACCESS_TOKEN</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s1">&#39;ACCESS_TOKEN&#39;</span><span class="p">))</span>
@@ -90,27 +111,7 @@ response from a file upload endpoint and the filepath itself.</p>
 
 </dd></dl>
 
-<dl class="class">
-<dt id="canvas_api.ResterAPI">
-<em class="property">class </em><code class="descclassname">canvas_api.</code><code class="descname">ResterAPI</code><span class="sig-paren">(</span><em>base_url</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#canvas_api.ResterAPI" title="Permalink to this definition">¶</a></dt>
-<dd><dl class="method">
-<dt id="canvas_api.ResterAPI.get">
-<code class="descname">get</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#canvas_api.ResterAPI.get" title="Permalink to this definition">¶</a></dt>
-<dd><p>Make the api call, returning the Response object from the requests module.</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">c</span> <span class="o">=</span> <span class="n">Canvas</span><span class="p">(</span><span class="s1">&#39;someodmain.instructure.com&#39;</span><span class="p">,</span> <span class="n">CANVAS_ACCESS_TOKEN</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s1">&#39;ACCESS_TOKEN&#39;</span><span class="p">))</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">user_987</span> <span class="o">=</span> <span class="n">c</span><span class="o">.</span><span class="n">accounts</span><span class="p">(</span><span class="s1">&#39;self&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">users</span><span class="p">(</span><span class="mi">987</span><span class="p">)</span><span class="o">.</span><span class="n">get</span><span class="p">()</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">user_987</span><span class="o">.</span><span class="n">json</span><span class="p">()</span>
-<span class="go">{</span>
-<span class="go">    &#39;id&#39;:987,</span>
-<span class="go">    etc...</span>
-<span class="go">    }</span>
-</pre></div>
-</div>
-</dd></dl>
-
-</dd></dl>
-
-</div>
+<span class="target" id="module-canvas_api"></span></div>
 <div class="section" id="indices-and-tables">
 <h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
 <ul class="simple">
@@ -129,6 +130,7 @@ response from a file upload endpoint and the filepath itself.</p>
   <h3><a href="#">Table Of Contents</a></h3>
   <ul>
 <li><a class="reference internal" href="#">Welcome to Python Canvas API Module&#8217;s documentation!</a></li>
+<li><a class="reference internal" href="#py-canvas-api">py_canvas_api</a></li>
 <li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
 </ul>
 <div class="relations">

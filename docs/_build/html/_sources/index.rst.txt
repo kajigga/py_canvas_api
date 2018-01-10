@@ -6,17 +6,18 @@
 Welcome to Python Canvas API Module's documentation!
 ====================================================
 
+.. include:: ../README.rst
+
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-.. automodule:: canvas_api
-   :members:
 .. autoclass:: canvas_api.Canvas
    :members:
+   :noindex:
 
-.. autoclass:: canvas_api.ResterAPI
-   :members:
+.. automodule:: canvas_api
 
 
 Indices and tables
