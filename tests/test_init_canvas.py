@@ -9,7 +9,8 @@ except:
 import json
 import requests
 
-import canvas_api
+from py_canvas_api import canvas_api
+
 BASE_URL = 'kevin.test.instructure.com'
 CANVAS_ACCESS_TOKEN='1~7GxKeS9cqHcNQxzKAZBhot6qurrWsJrYhPJiTY71lqxj37peuccu0ESl4fXh1VRL'
 
@@ -55,13 +56,13 @@ class TestPyCanvasAPI(TestCase):
     # TODO how do I mock this?
     pass
 
+from py_canvas_api import commons
 class TestCommonsAPI(TestCase):
   def setUp(self):
-    self.commons = canvas_api.Commons(BASE_URL, CANVAS_ACCESS_TOKEN=CANVAS_ACCESS_TOKEN)
+    self.commons = commons.Commons(BASE_URL, CANVAS_ACCESS_TOKEN=CANVAS_ACCESS_TOKEN)
     self.jwt_response = { "jwt_token": "eyJ0eXAiOiJ"}
     self.session_response = { "sessionId": u"lkjlklkjlkj"}
 
-    #self.commons.canvas2.req = MagicMock()
     res_list = json.load(open(os.path.join(BASE_DIR, 'resources_list.json'),'rU'))
     requests.get = MagicMock()
     requests.get.side_effect = [
@@ -73,7 +74,6 @@ class TestCommonsAPI(TestCase):
     requests.post.side_effect = [
         MagicMock(status_code=200, text=json.dumps(self.session_response), json=lambda: self.session_response)
         ]
-
 
   def test_get_jwt_token(self):
     jwt_token = self.commons.get_jwt_token()

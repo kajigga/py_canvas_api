@@ -4,6 +4,7 @@ import requests
 import collections
 import mimetypes
 from .rester_api import ResterAPI, Paginates
+from .common import log
 
 class Canvas(ResterAPI, Paginates):
 

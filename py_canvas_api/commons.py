@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 import requests
+import json
 from .rester_api import ResterAPI, log
+from .canvas_api import Canvas
 
 class Commons(ResterAPI):
   def __init__(self, base_url, *args, **kwargs):
