@@ -103,7 +103,7 @@ Here is how to do an SIS Import.
 .. code-block:: py
 
   from canvas_api import SISImporter
-  sis_importer = SISImporter('somedomain.instructure.com', CANVAS_ACCESS_TOKEN=os.getenv('ACCESS_TOKEN'))
+  sis_importer = SISImporter('somedomain.instructure.com', os.getenv('ACCESS_TOKEN'))
   sis_importer.do_sis_import(filepath)
 
 
